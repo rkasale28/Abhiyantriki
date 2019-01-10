@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HomeActivity"
+        <activity
+            android:name=".HomeActivity"
             android:label="Abhiyantriki 2019">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,6 +18,29 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".EventsActivity"
+            android:label="Events" />
+        <activity
+            android:name=".ExposActivity"
+            android:label="Expos" />
+        <activity
+            android:name=".SpeakersActivity"
+            android:label="Speakers" />
+        <activity
+            android:name=".SponsorsActivity"
+            android:label="Sponsors" />
+        <activity
+            android:name=".MapActivity"
+            android:label="Map" />
+        <activity
+            android:name=".RegisterActivity"
+            android:label="Register" />
+        <activity
+            android:name=".ProfileActivity"
+            android:label="My Profile" />
+        <activity android:name=".AboutActivity"
+            android:label="About the Council"/>
     </application>
 
 </manifest>

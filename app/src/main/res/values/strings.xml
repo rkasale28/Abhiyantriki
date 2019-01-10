@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Abhiyantriki</string>
+    <string name="clg_name">K. J. Somaiya College of Engineering</string>
+    <string name="Open">Opens navigation drawer</string>
+    <string name="Close">Closes navigation drawer</string>
 </resources>
