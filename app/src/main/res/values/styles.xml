@@ -8,6 +8,15 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
     <!-- For Heading -->
     <style name="Header">
         <item name="android:textSize">34sp</item>
@@ -19,6 +28,18 @@
     <style name="Subtitle">
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">#C2185B</item>
+    </style>
+
+    <!-- For text -->
+    <style name="Body1">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#E91E63</item>
+    </style>
+
+    <!-- For text having no subtitle -->
+    <style name="Body2">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#E91E63</item>
     </style>
 
 </resources>
