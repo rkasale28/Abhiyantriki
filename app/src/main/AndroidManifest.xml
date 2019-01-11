@@ -40,7 +40,8 @@
             android:name=".ProfileActivity"
             android:label="My Profile" />
         <activity android:name=".AboutActivity"
-            android:label="About the Council"/>
+            android:label="About the council"/>
+
     </application>
 
 </manifest>

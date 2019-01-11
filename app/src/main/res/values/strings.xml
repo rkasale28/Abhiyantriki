@@ -3,6 +3,7 @@
     <string name="clg_name">K. J. Somaiya College of Engineering</string>
     <string name="Open">Opens navigation drawer</string>
     <string name="Close">Closes navigation drawer</string>
+
     <string name="pubg">The PUBG fever has infected everyone and with a game as addictive and
         intense as this, it’d be a shame for it to not be a part of Abhiyantriki ‘18. It’s time to
         loot all the crates in sight and face the terrors of Pochinki as you run away from the
@@ -23,4 +24,12 @@
         AIB in association with Shahrukh Khan, we present to you FIFA Manager. Be in charge of a team
         and pave its way towards victory. Have you got what it takes to manage a team and lead it to
         victory?</string>
+    <string name="cs">From time immemorial, one thing that describes engineers the best would be the
+        legendary FPS, Counter Strike. It’s time to Rush B and come out of your congested, damp and
+        clammy hostel rooms and go guns blazing in a tournament to decide who has got the eagle eyed
+        vision worthy of the Golden Glock.</string>
+    <string name="CastleMath">With the lectures frying your brains to a crisp with the arrays of
+        Epsilons and Gammas, it is time to bring math outside the classroom. With this exciting event
+        presented by Team Emfinity, we hope all the zealots of math bring out their inner fangirl.
+    </string>
 </resources>
