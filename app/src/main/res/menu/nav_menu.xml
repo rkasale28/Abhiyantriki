@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item
+        android:id="@+id/events"
+        android:title="Events" />
+    <item
+        android:id="@+id/expos"
+        android:title="Expos" />
+    <item
+        android:id="@+id/speakers"
+        android:title="Speakers" />
+
+    <item
+        android:id="@+id/sponsors"
+        android:title="Sponsors" />
+
+</menu>
