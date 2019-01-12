@@ -15,5 +15,9 @@
     <item
         android:id="@+id/sponsors"
         android:title="Sponsors" />
+    <item
+        android:id="@+id/parvaah"
+        android:title="Parvaah" />
+
 
 </menu>
