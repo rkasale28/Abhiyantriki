@@ -20,7 +20,7 @@ public class NavActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        super.setContentView(R.layout.activity_drawerlayout);
+        super.setContentView(R.layout.drawer_layout);
     }
 
     @Override
@@ -60,9 +60,9 @@ public class NavActivity extends AppCompatActivity {
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        //For handling click events of navigation drawer
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
 
+        //For handling click events of navigation drawer
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
@@ -95,8 +95,9 @@ public class NavActivity extends AppCompatActivity {
             }
         });
 
+        final BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom);
+
         //For handling click events of bottom navigation view
-        BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom);
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {

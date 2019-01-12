@@ -3,4 +3,28 @@
     <string name="clg_name">K. J. Somaiya College of Engineering</string>
     <string name="Open">Opens navigation drawer</string>
     <string name="Close">Closes navigation drawer</string>
+    <string name="kjsce">The K. J. Somaiya College of Engineering was established in 1983
+        at Somaiya, Vidyavihar.It offers 4-year bachelors degree courses in five diverse
+        departments.KJSCE is an Autonomous college affiliated to the University of Mumbai and
+        is recognized by the All India Council for Technical Education.The college hosts three huge
+        festivals: Abhiyantriki, Skream, and Symphony.</string>
+    <string name="abhiyantriki">Abhiyantriki is the annual technical festival of K.J. Somaiya
+        College of Engineering. Previously, organizations like DRDO, BARC, ISRO, DAE have
+        participated in the fest along with prominent personalities such as the late Dr. A.P.J.
+        Abdul Kalam, R Chidambaram, Abhas Mitra etc. It is a culmination of the brightest young
+        minds coming in to compete in the various technical activities that take place during the
+        two day long celebration.</string>
+    <string name="year_98">Abhiyantriki introduced as an individual, standalone festival of technical
+        grandeur and pomp.</string>
+    <string name="year_08">Funds collected this year were all donated for the rehabilitation of the
+        flood struck Bihar and Abhiyantriki rose in popularity with extensive media coverage.</string>
+    <string name="year_09">KJSCE marks 25 years since its inauguration, and the closing ceremony of
+        Abhiyantriki was ornamented by the presence of late Dr. A.P.J. Abdul Kalam</string>
+    <string name="year_14">The maiden year for Start-up and Auto Expo, Abhiyantriki this year also
+        encompassed Rohit Suri, the Jaguar India CEO as one of the keynote speakers</string>
+    <string name="year_16">Abhiyantriki extended by a day, now was a two-day long fest with its
+        flagship event being a technical exhibition presided over by ISRO.</string>
+    <string name="year_17">Attending to the likes of DRDO, DAE and BARC, Abhiyantriki garnered a
+        running footfall of over 15,000 for the first time in its history!</string>
+
 </resources>

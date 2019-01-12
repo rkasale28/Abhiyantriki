@@ -1,6 +1,7 @@
 package org.kjsce.abhiyantriki.abhiyantriki;
 
 import android.os.Bundle;
+import android.support.design.widget.BottomNavigationView;
 
 public class RegisterActivity extends NavActivity {
 
@@ -8,5 +9,8 @@ public class RegisterActivity extends NavActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
+        BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom);
+        bottomNavigationView.setSelectedItemId(R.id.register);
     }
 }
+
