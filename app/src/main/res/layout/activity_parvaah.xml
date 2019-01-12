@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="8dp"
+
+        >
+
+        <LinearLayout
+            android:id="@+id/parvaah_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#61003F"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+
+            >
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="104dp"
+                android:src="@drawable/parvah1"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="4dp"
+
+
+                />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/parvaahTitle"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffffff"
+                android:fontFamily="sans-serif"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Volunteer"
+                android:background="@drawable/button_border"
+                android:textAllCaps="true"
+                android:textColor="#61003F"
+                android:id="@+id/register_volunteer"
+                />
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:background="#61003F"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/back"
+                android:onClick="ShowPopup1"
+
+
+                >
+
+                <ImageView
+                    android:layout_width="128dp"
+                    android:layout_height="64dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/p1" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="SCHOOL AWARENESS CAMPAIGN"
+                    android:textColor="#61003F"
+                    android:textStyle="bold"
+                    android:layout_margin="8dp"
+
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/back"
+                android:onClick="ShowPopup2"
+
+                >
+
+                <ImageView
+                    android:layout_width="128dp"
+                    android:layout_height="64dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/p2" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_margin="8dp"
+                    android:text="PLASTIC AND E-COLLECTION DRIVE"
+                    android:textColor="#61003F"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:onClick="ShowPopup3"
+                android:background="@drawable/back"
+                >
+
+                <ImageView
+                    android:layout_width="128dp"
+                    android:layout_height="64dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/p3" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="GANPATI VISARJAN CLEAN-UP"
+                    android:textColor="#61003F"
+                    android:textStyle="bold"
+                    android:layout_margin="8dp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/back"
+                android:onClick="ShowPopup4"
+                >
+
+                <ImageView
+                    android:layout_width="128dp"
+                    android:scaleType="centerCrop"
+                    android:layout_height="64dp"
+                    android:src="@drawable/p4" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#61003F"
+                    android:textStyle="bold"
+                    android:layout_margin="8dp"
+                    android:text="SIGNAL SHALA"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+
+                    />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/back"
+                android:onClick="ShowPopup5"
+                >
+
+                <ImageView
+                    android:layout_width="128dp"
+                    android:layout_height="64dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/p5" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#61003F"
+                    android:textStyle="bold"
+                    android:layout_margin="8dp"
+                    android:text="SECRET SANTA"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+
+                    />
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/back"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:paddingBottom="8dp"
+                android:onClick="ShowPopup6"
+                >
+
+                <ImageView
+                    android:layout_width="128dp"
+                    android:layout_height="64dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/p6" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="PARVAAH MARATHON"
+                    android:textColor="#61003F"
+                    android:textStyle="bold"
+                    android:layout_margin="8dp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

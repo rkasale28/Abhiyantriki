@@ -1,5 +1,6 @@
 package org.kjsce.abhiyantriki.abhiyantriki;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -87,6 +88,11 @@ public class NavActivity extends AppCompatActivity {
 
                     case R.id.sponsors:
                         intent = new Intent(NavActivity.this, SponsorsActivity.class);
+                        startActivity(intent);
+                        break;
+
+                    case R.id.parvaah:
+                        intent = new Intent(NavActivity.this, ParvaahActivity.class);
                         startActivity(intent);
                         break;
                 }
