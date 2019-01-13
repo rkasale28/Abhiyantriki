@@ -1,9 +1,10 @@
 package org.kjsce.abhiyantriki.abhiyantriki;
 
-public class Timeline_Model {
+//For timeline section in home
+public class ModelTimeline {
     String year,content;
 
-    public Timeline_Model(String year, String content) {
+    public ModelTimeline(String year, String content) {
         this.year = year;
         this.content = content;
     }
