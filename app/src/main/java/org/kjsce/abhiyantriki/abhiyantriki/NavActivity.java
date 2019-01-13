@@ -95,6 +95,10 @@ public class NavActivity extends AppCompatActivity {
                         intent = new Intent(NavActivity.this, ParvaahActivity.class);
                         startActivity(intent);
                         break;
+                    case R.id.AboutUs:
+                        intent = new Intent(NavActivity.this, AboutUs.class);
+                        startActivity(intent);
+                        break;
                 }
                 dl.closeDrawer(GravityCompat.START);
                 return true;

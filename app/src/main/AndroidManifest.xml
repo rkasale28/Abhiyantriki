@@ -42,7 +42,10 @@
         <activity
             android:name=".AboutActivity"
             android:label="About the council" />
-        <activity android:name=".ParvaahActivity" android:label="Parvaah"></activity>
+        <activity
+            android:name=".ParvaahActivity"
+            android:label="Parvaah" />
+        <activity android:name=".AboutUs" android:label="About Us"></activity>
     </application>
 
 </manifest>

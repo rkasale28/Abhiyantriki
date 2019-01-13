@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
+import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -30,6 +31,16 @@ public class ParvaahActivity extends NavActivity {
                 startActivity(intent);
             }
         });
+        BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom);
+
+
+        //For hiding register button
+        bottomNavigationView.getMenu().removeItem(R.id.register);
+        bottomNavigationView.getMenu().removeItem(R.id.home);
+        bottomNavigationView.getMenu().removeItem(R.id.map);
+        bottomNavigationView.getMenu().removeItem(R.id.about);
+        bottomNavigationView.getMenu().removeItem(R.id.profile);
+
 
 
     }
