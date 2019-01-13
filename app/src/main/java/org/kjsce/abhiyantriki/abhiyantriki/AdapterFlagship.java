@@ -14,9 +14,9 @@ import java.util.ArrayList;
 //For ImageSlider in HomeActivity
 public class AdapterFlagship extends PagerAdapter {
     public Context c;
-    public ArrayList<Flagship_Model> flagshipEvents;
+    public ArrayList<ModelFlagship> flagshipEvents;
 
-    public AdapterFlagship(Context c, ArrayList<Flagship_Model> flagshipEvents) {
+    public AdapterFlagship(Context c, ArrayList<ModelFlagship> flagshipEvents) {
         this.c = c;
         this.flagshipEvents = flagshipEvents;
     }
@@ -35,7 +35,7 @@ public class AdapterFlagship extends PagerAdapter {
     public Object instantiateItem(ViewGroup container, final int position) {
         View itemView = LayoutInflater.from(c).inflate(R.layout.model_flagship, container, false);
 
-        Flagship_Model f = (Flagship_Model) flagshipEvents.get(position);
+        ModelFlagship f = (ModelFlagship) flagshipEvents.get(position);
 
         ImageView imageView = (ImageView) itemView.findViewById(R.id.image);
         TextView title = (TextView) itemView.findViewById(R.id.title);

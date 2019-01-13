@@ -1,10 +1,11 @@
 package org.kjsce.abhiyantriki.abhiyantriki;
 
-public class Flagship_Model {
+//For image slider in Home section
+public class ModelFlagship {
     int image;
     String title,subtitle;
 
-    public Flagship_Model(int image, String title, String subtitle) {
+    public ModelFlagship(int image, String title, String subtitle) {
         this.image = image;
         this.title = title;
         this.subtitle = subtitle;

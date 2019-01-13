@@ -13,11 +13,11 @@
         android:title="Speakers" />
 
     <item
-        android:id="@+id/sponsors"
-        android:title="Sponsors" />
-    <item
         android:id="@+id/parvaah"
         android:title="Parvaah" />
 
+    <item
+        android:id="@+id/sponsors"
+        android:title="Sponsors" />
 
 </menu>

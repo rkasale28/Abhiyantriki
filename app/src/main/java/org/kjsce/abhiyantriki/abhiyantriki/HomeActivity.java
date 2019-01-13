@@ -70,23 +70,23 @@ public class HomeActivity extends NavActivity {
 
 
     //For inserting elements in ImageSlider
-    private ArrayList<Flagship_Model> getFData() {
-        ArrayList<Flagship_Model> flagshipModels = new ArrayList<>();
-        flagshipModels.add(new Flagship_Model(R.drawable.logo, "PUBG Mobile", "Student Council"));
-        flagshipModels.add(new Flagship_Model(R.drawable.logo, "Laser Tag", "Student Council"));
-        flagshipModels.add(new Flagship_Model(R.drawable.logo, "Drone Racing", "Drona Aviation"));
+    private ArrayList<ModelFlagship> getFData() {
+        ArrayList<ModelFlagship> flagshipModels = new ArrayList<>();
+        flagshipModels.add(new ModelFlagship(R.drawable.logo, "PUBG Mobile", "Student Council"));
+        flagshipModels.add(new ModelFlagship(R.drawable.logo, "Laser Tag", "Student Council"));
+        flagshipModels.add(new ModelFlagship(R.drawable.logo, "Drone Racing", "Drona Aviation"));
         return flagshipModels;
     }
 
     //For inserting elements in Timeline
-    private ArrayList<Timeline_Model> getTData() {
-        ArrayList<Timeline_Model> timelineModels = new ArrayList<>();
-        timelineModels.add(new Timeline_Model("1998", getString(R.string.year_98)));
-        timelineModels.add(new Timeline_Model("2008", getString(R.string.year_08)));
-        timelineModels.add(new Timeline_Model("2009", getString(R.string.year_09)));
-        timelineModels.add(new Timeline_Model("2014", getString(R.string.year_14)));
-        timelineModels.add(new Timeline_Model("2016", getString(R.string.year_16)));
-        timelineModels.add(new Timeline_Model("2017", getString(R.string.year_17)));
+    private ArrayList<ModelTimeline> getTData() {
+        ArrayList<ModelTimeline> timelineModels = new ArrayList<>();
+        timelineModels.add(new ModelTimeline("1998", getString(R.string.year_98)));
+        timelineModels.add(new ModelTimeline("2008", getString(R.string.year_08)));
+        timelineModels.add(new ModelTimeline("2009", getString(R.string.year_09)));
+        timelineModels.add(new ModelTimeline("2014", getString(R.string.year_14)));
+        timelineModels.add(new ModelTimeline("2016", getString(R.string.year_16)));
+        timelineModels.add(new ModelTimeline("2017", getString(R.string.year_17)));
         return timelineModels;
     }
 

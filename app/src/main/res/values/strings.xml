@@ -3,6 +3,8 @@
     <string name="clg_name">K. J. Somaiya College of Engineering</string>
     <string name="Open">Opens navigation drawer</string>
     <string name="Close">Closes navigation drawer</string>
+
+    <!-- For Home Activity -->
     <string name="kjsce">The K. J. Somaiya College of Engineering was established in 1983 at
         Somaiya, Vidyavihar. It offers 4-year bachelors degree courses in five diverse departments.
         KJSCE is an Autonomous college affiliated to the University of Mumbai and is recognized by
@@ -14,6 +16,8 @@
         Chidambaram, Abhas Mitra etc. It is a culmination of the brightest young minds coming in to
         compete in the various technical activities that take place during the two day long
         celebration.</string>
+
+    <!--  For Timeline -->
     <string name="year_98">Abhiyantriki introduced as an individual, standalone festival of technical
     grandeur and pomp.</string>
     <string name="year_08">Funds collected this year were all donated for the rehabilitation of the
@@ -26,6 +30,9 @@
         flagship event being a technical exhibition presided over by ISRO.</string>
     <string name="year_17">Attending to the likes of DRDO, DAE and BARC, Abhiyantriki garnered a
         running footfall of over 15,000 for the first time in its history!</string>
+
+    <!-- For Events Cards -->
+    <!-- For Informal-->
     <string name="pubg">The PUBG fever has infected everyone and with a game as addictive and
         intense as this, it’d be a shame for it to not be a part of Abhiyantriki ‘18. It’s time to
         loot all the crates in sight and face the terrors of Pochinki as you run away from the
@@ -54,6 +61,56 @@
         Epsilons and Gammas, it is time to bring math outside the classroom. With this exciting event
         presented by Team Emfinity, we hope all the zealots of math bring out their inner fangirl.
     </string>
+
+    <!-- For Ideate Fragment-->
+    <string name="ideate">Ideate is one of the very core events of Abhiyantriki where participants
+        from various colleges bring out the best of ideas focusing on a problem statement to engineer
+        feasible and efficient technology.</string>
+
+    <!-- For Events Tabs-->
+    <string name="tab_text_1">Technicals</string>
+    <string name="tab_text_2">Ideate</string>
+    <string name="tab_text_3">Informals</string>
+    <string name="tab_text_4">Shield</string>
+    <string name="tab_text_5">Pre-Events</string>
+
+    <!-- For Tech Expo Fragment -->
+    <string name="techExpo">A display of the most innovative technology from around the country,
+        ranging from high-speed drones to drag-and-drop robot arms, the Tech Expo is the most
+        eye-catching event of Abhiyantriki. Having collaborated with big names like DRDO, BARC,
+        ISRO, DAE and many more, the tech expo will surely ignite the fire of science and
+        engineering in your budding mind!</string>
+    <string name="indianArmy">With the motto \‘Service before Self\' the Indian Army is one of the
+        world’s most powerful armed forces. And in synergy with Abhiyantriki, the impossible becomes
+        a reality. Technology only observed in works of fiction become a reality here, as the Indian
+        Army brings in their best, from weapons seen in an Arnold Schwarzenegger movie to firepower
+        unheard of!</string>
+
+    <!-- For Auto Expo Fragment -->
+    <string name="autoexpo">Auto Expo is one of the star attractions of Abhiyantriki ever since its
+        starting years. It has collaborated with major companies like Jaguar, Audi, Fiat, Mercedes
+        Benz etc. This event helped students to gain perspective about different cars, their
+        specifications, and the enhancements in the technology involved and is a one-stop
+        destination for all the automobile enthusiasts out there.</string>
+
+    <!-- For Internship Expo Fragment -->
+    <string name="internship">The primary aim of this expo is to help the desiring candidates to get
+        internship opportunities in renowned companies. It was started in Abhiyantriki 2015 and
+        since then, has been providing a lot of students the internship they deserve in a variety of
+        fields ranging from marketing to IT. These internships are bound to give a boost to their
+        career.</string>
+
+    <!-- For Expos Tabs -->
+    <string name="tab_text_6">Tech Expo</string>
+    <string name="tab_text_7">Auto Expo</string>
+    <string name="tab_text_8">Internship Expo</string>
+
+    <!-- For Speaker Section -->
+    <string name="speaker">With sessions conducted by skilled experts of diverse fields, the Speaker
+        Sessions held during Abhiyantriki are bound to leave you in awe. Abhiyantriki so far has
+        seen speakers such as Mr. Hetal Kotak, CEO of Lee Cooper, Mrs. Saloni Suri, PR Consultant of
+        Rolex Institute and Asia Society, Dr. Abhas Mitra, and R. Chidambaram, former director of
+        BARC.</string>
 
 
     <!--          ################### Parvaah Strings #######################                   -->
