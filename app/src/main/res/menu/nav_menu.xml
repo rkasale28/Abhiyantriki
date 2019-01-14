@@ -15,6 +15,9 @@
     <item
         android:id="@+id/parvaah"
         android:title="Parvaah" />
+    <item
+        android:id="@+id/AboutUs"
+        android:title="About Us" />
 
     <item
         android:id="@+id/sponsors"

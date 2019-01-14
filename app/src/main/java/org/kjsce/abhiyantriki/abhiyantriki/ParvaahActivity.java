@@ -37,7 +37,6 @@ public class ParvaahActivity extends NavActivity {
             }
         });
 
-
     }
     public void ShowPopup1(View v) {
         TextView txtclose;

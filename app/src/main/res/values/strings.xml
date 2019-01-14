@@ -139,5 +139,12 @@
     </string>
     <!--          ################### Parvaah Strings Ends#######################                   -->
 
+    <!--         #################### About Abhiyantriki  #######################                   -->
+    <string name="address">K. J. Somaiya College of Engineering \nVidyanagar, Vidya Vihar East, Ghatkopar East, Mumbai, Maharashtra 400077 </string>
+
+
+    <!--         #################### About Abhiyantriki String End #######################                   -->
+
+
 
 </resources>

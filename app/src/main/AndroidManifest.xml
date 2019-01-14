@@ -19,6 +19,12 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".EventsActivity"
+            android:label="Events" />
+        <activity
+            android:name=".ExposActivity"
+            android:label="Expos" />
+        <activity
             android:name=".SpeakersActivity"
             android:label="Speakers" />
         <activity
@@ -34,19 +40,9 @@
             android:name=".ProfileActivity"
             android:label="My Profile" />
         <activity
-            android:name=".AboutActivity"
-            android:label="About the council" />
-        <activity
-            android:name=".ParvaahActivity"
-            android:label="Parvaah" />
-        <activity
-            android:name=".EventsActivity"
-            android:label="Events"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".ExposActivity"
-            android:label="Expos"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:name=".AboutUs"
+            android:label="About Us" />
+        <activity android:name=".ParvaahActivity" android:label="Parvaah"></activity>
     </application>
 
 </manifest>
