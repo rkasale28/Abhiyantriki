@@ -28,6 +28,8 @@ public class FragmentInternshipExpo extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View v=inflater.inflate(R.layout.fragment_internship_expo,container,false);
+
+        //Attach adapter to Grid View
         gridView=(GridView) v.findViewById(R.id.grid_view);
         internship=new AdapterInternship(getContext(),getData());
         gridView.setAdapter(internship);

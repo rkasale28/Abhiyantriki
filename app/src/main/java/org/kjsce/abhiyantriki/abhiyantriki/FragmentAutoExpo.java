@@ -3,6 +3,7 @@ package org.kjsce.abhiyantriki.abhiyantriki;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -33,6 +34,5 @@ public class FragmentAutoExpo extends Fragment {
         adapterCard1 = new AdapterCard1(getContext(), getData());
         gridView.setAdapter(adapterCard1);
         return v;
-
     }
 }

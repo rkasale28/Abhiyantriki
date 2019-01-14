@@ -1,8 +1,13 @@
 package org.kjsce.abhiyantriki.abhiyantriki;
 
+import android.content.Context;
 import android.os.Bundle;
+import android.os.PersistableBundle;
+import android.support.annotation.Nullable;
 import android.support.design.widget.BottomNavigationView;
+import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
+import android.view.LayoutInflater;
 import android.widget.GridView;
 
 import java.util.ArrayList;
@@ -11,6 +16,7 @@ public class SponsorsActivity extends NavActivity {
     AdapterCard2 adapter;
     ExpandableHeightGridView gv;
 
+    //Add Sponsorers in Sponsors Section
     private ArrayList<ModelCard2> getData() {
         ArrayList<ModelCard2> modelCard2s = new ArrayList<ModelCard2>();
         modelCard2s.add(new ModelCard2(R.drawable.icon, "Hackathon Partner"));
@@ -76,17 +82,20 @@ public class SponsorsActivity extends NavActivity {
     }
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sponsors);
+
+        //Attach adapter to Grid View
+        gv = (ExpandableHeightGridView) findViewById(R.id.grid_view);
+        gv.setExpanded(true);
+        gv.setFocusable(false);
+        adapter = new AdapterCard2(this, getData());
+        gv.setAdapter(adapter);
 
         BottomNavigationView bottomNavigationView=(BottomNavigationView) findViewById(R.id.bottom);
         //Hiding register button
         bottomNavigationView.getMenu().removeItem(R.id.register);
-
-        gv = (ExpandableHeightGridView) findViewById(R.id.grid_view);
-        gv.setExpanded(true);
-        adapter = new AdapterCard2(this, getData());
-        gv.setAdapter(adapter);
-        }
+    }
 }
+
