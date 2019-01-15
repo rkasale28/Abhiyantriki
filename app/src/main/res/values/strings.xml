@@ -32,7 +32,7 @@
         running footfall of over 15,000 for the first time in its history!</string>
 
     <!-- For Events Cards -->
-    <!-- For Informal-->
+    
     <string name="pubg">The PUBG fever has infected everyone and with a game as addictive and
         intense as this, it’d be a shame for it to not be a part of Abhiyantriki ‘18. It’s time to
         loot all the crates in sight and face the terrors of Pochinki as you run away from the
@@ -60,6 +60,18 @@
     <string name="CastleMath">With the lectures frying your brains to a crisp with the arrays of
         Epsilons and Gammas, it is time to bring math outside the classroom. With this exciting event
         presented by Team Emfinity, we hope all the zealots of math bring out their inner fangirl.
+    </string>
+    <string name="digitalposter">To those who thought Abhiyantriki is only for the tech-heads,
+        coders, and the occasional \'pro\' gamers, here\’s a one-off contest, exploring the
+        technicalities of art, the Poster Design Competition! In this contest, participants have to
+        make a poster (digitally designed), recreating some of their favourite Indian war movie
+        posters! Best entries will be printed out and presented to the Indian Army at Abhiyantriki
+        2018.</string>
+
+    <string name="kjscemumbai">To find a solution, think outside the box. To solve a cube think
+        inside of the box. To compete with cubes as your weapons, observe the sides, memorize the
+        algorithms and spot the glitches. Abhiyantriki and Cubenama are here with a Pre-Event for
+        the avid cubers, so get ready to compete and delve into a different dimension of the cubes.
     </string>
 
     <!-- For Ideate Fragment-->
