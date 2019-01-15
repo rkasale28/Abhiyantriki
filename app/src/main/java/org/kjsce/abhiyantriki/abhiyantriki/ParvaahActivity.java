@@ -19,6 +19,11 @@ public class ParvaahActivity extends NavActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_parvaah);
+
+        BottomNavigationView bottomNavigationView=(BottomNavigationView) findViewById(R.id.bottom);
+        //Hide Register Buttom
+        bottomNavigationView.getMenu().removeItem(R.id.register);
+
         myDialog = new Dialog(this);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         TextView textView = (TextView) findViewById(R.id.register_volunteer);

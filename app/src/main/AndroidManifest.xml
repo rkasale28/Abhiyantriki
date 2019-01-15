@@ -20,10 +20,12 @@
         </activity>
         <activity
             android:name=".EventsActivity"
-            android:label="Events" />
+            android:label="Events"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name=".ExposActivity"
-            android:label="Expos" />
+            android:label="Expos"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name=".SpeakersActivity"
             android:label="Speakers" />
@@ -40,9 +42,12 @@
             android:name=".ProfileActivity"
             android:label="My Profile" />
         <activity
-            android:name=".AboutUs"
+            android:name=".ReachUs"
             android:label="About Us" />
-        <activity android:name=".ParvaahActivity" android:label="Parvaah"></activity>
+        <activity android:name=".ParvaahActivity"
+            android:label="Parvaah"/>
+        <activity android:name=".AboutActivity"
+            android:label="About the Council"/>
     </application>
 
 </manifest>

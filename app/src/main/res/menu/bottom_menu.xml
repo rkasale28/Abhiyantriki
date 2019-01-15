@@ -9,9 +9,9 @@
     <item android:id="@+id/register"
         android:title="Register"
         android:icon="@drawable/register" />
-    <item android:id="@+id/about"
-        android:title="About"
-        android:icon="@drawable/about" />
+    <item android:id="@+id/reach"
+        android:title="Reach Us"
+        android:icon="@drawable/reach" />
     <item android:id="@+id/profile"
         android:title="Profile"
         android:icon="@drawable/person" />

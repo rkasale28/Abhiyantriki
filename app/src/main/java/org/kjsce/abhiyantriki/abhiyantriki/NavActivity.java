@@ -1,6 +1,5 @@
 package org.kjsce.abhiyantriki.abhiyantriki;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -96,7 +95,7 @@ public class NavActivity extends AppCompatActivity {
                         startActivity(intent);
                         break;
                     case R.id.AboutUs:
-                        intent = new Intent(NavActivity.this, AboutUs.class);
+                        intent = new Intent(NavActivity.this, AboutActivity.class);
                         startActivity(intent);
                         break;
                 }
@@ -126,8 +125,8 @@ public class NavActivity extends AppCompatActivity {
                         intent = new Intent(NavActivity.this, RegisterActivity.class);
                         startActivity(intent);
                         break;
-                    case R.id.about:
-                        intent = new Intent(NavActivity.this, AboutActivity.class);
+                    case R.id.reach:
+                        intent = new Intent(NavActivity.this, ReachUs.class);
                         startActivity(intent);
                         break;
                     case R.id.profile:

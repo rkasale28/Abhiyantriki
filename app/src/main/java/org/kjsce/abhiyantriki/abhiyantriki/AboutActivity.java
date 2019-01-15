@@ -9,7 +9,7 @@ public class AboutActivity extends NavActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about);
         BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom);
-        bottomNavigationView.setSelectedItemId(R.id.about);
+        //Hiding Register button
         bottomNavigationView.getMenu().removeItem(R.id.register);
     }
 }
