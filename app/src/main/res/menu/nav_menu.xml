@@ -17,7 +17,7 @@
         android:title="Parvaah" />
     <item
         android:id="@+id/AboutUs"
-        android:title="About Us" />
+        android:title="About Council" />
 
     <item
         android:id="@+id/sponsors"
