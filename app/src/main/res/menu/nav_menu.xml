@@ -13,14 +13,17 @@
         android:title="Speakers" />
 
     <item
+        android:id="@+id/sponsors"
+        android:title="Sponsors" />
+
+    <item
+        android:id="@+id/get_involved"
+        android:title="Get Involved " />
+    <item
         android:id="@+id/parvaah"
         android:title="Parvaah" />
     <item
         android:id="@+id/AboutUs"
         android:title="About Council" />
-
-    <item
-        android:id="@+id/sponsors"
-        android:title="Sponsors" />
 
 </menu>

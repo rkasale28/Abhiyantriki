@@ -21,11 +21,11 @@
         <activity
             android:name=".EventsActivity"
             android:label="Events"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ExposActivity"
             android:label="Expos"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".SpeakersActivity"
             android:label="Speakers" />
@@ -48,6 +48,8 @@
             android:label="Parvaah"/>
         <activity android:name=".AboutActivity"
             android:label="About the Council"/>
+            <activity android:name=".GetInvolved"
+            android:label="Get Involved"></activity>
     </application>
 
 </manifest>

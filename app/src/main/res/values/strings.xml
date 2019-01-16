@@ -32,7 +32,7 @@
         running footfall of over 15,000 for the first time in its history!</string>
 
     <!-- For Events Cards -->
-    <!-- For Informal-->
+
     <string name="pubg">The PUBG fever has infected everyone and with a game as addictive and
         intense as this, it’d be a shame for it to not be a part of Abhiyantriki ‘18. It’s time to
         loot all the crates in sight and face the terrors of Pochinki as you run away from the
@@ -60,6 +60,18 @@
     <string name="CastleMath">With the lectures frying your brains to a crisp with the arrays of
         Epsilons and Gammas, it is time to bring math outside the classroom. With this exciting event
         presented by Team Emfinity, we hope all the zealots of math bring out their inner fangirl.
+    </string>
+    <string name="digitalposter">To those who thought Abhiyantriki is only for the tech-heads,
+        coders, and the occasional \'pro\' gamers, here\’s a one-off contest, exploring the
+        technicalities of art, the Poster Design Competition! In this contest, participants have to
+        make a poster (digitally designed), recreating some of their favourite Indian war movie
+        posters! Best entries will be printed out and presented to the Indian Army at Abhiyantriki
+        2018.</string>
+
+    <string name="kjscemumbai">To find a solution, think outside the box. To solve a cube think
+        inside of the box. To compete with cubes as your weapons, observe the sides, memorize the
+        algorithms and spot the glitches. Abhiyantriki and Cubenama are here with a Pre-Event for
+        the avid cubers, so get ready to compete and delve into a different dimension of the cubes.
     </string>
 
     <!-- For Ideate Fragment-->
@@ -113,7 +125,7 @@
         BARC.</string>
 
 
-    <!--          ################### Parvaah Strings #######################                   -->
+    <!--  Parvaah Strings         -->
     <string name="parvaahTitle">
         The social initiative of K.J. Somaiya College of engineering, named Parvaah, works each year
         with a purpose of providing to the underprivileged and oppressed.
@@ -137,14 +149,14 @@
     <string name="parvaah_Marathon">
     Parvaah plans to organize a marathon to raise awareness about waste crisis. The marathon is proposed to take place in the Ghatkopar area of suburban Mumbai. We would also be starting a fundraiser event through this marathon.
     </string>
-    <!--          ################### Parvaah Strings Ends#######################                   -->
 
-    <!--         #################### About Abhiyantriki  #######################                   -->
+    <!--     About Abhiyantriki         -->
     <string name="address">K. J. Somaiya College of Engineering \nVidyanagar, Vidya Vihar East, Ghatkopar East, Mumbai, Maharashtra 400077 </string>
 
 
-    <!--         #################### About Abhiyantriki String End #######################                   -->
-
+    <!--        getInvolved String      -->
+    <string name="getInvolved1">Do you know someone with the potential to build something that pawns over the technology being displayed in Abhiyantriki and will leave the audience awestruck? If yes, feel free to add their details in the form below and we’ll reach out to them!</string>
+    <string name="getInvolved2">Sponsors and Partners are a key component that helps make Abhiyantriki a fest worthy of all the praise and acclaim it has been garnered over the ages. Along with monetary support, you can feel free to help us out in any other way possible. Fill out the form below to get in touch with us :</string>
 
 
 </resources>
