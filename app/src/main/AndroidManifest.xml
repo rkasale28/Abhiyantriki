@@ -11,7 +11,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".HomeActivity"
-            android:label="Abhiyantriki 2019">
+            android:label="Abhiyantriki">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -43,7 +43,7 @@
             android:label="My Profile" />
         <activity
             android:name=".ReachUs"
-            android:label="About Us" />
+            android:label="Reach Us" />
         <activity android:name=".ParvaahActivity"
             android:label="Parvaah"/>
         <activity android:name=".AboutActivity"

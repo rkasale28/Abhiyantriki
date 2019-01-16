@@ -94,6 +94,7 @@ public class HomeActivity extends NavActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+        getSupportActionBar().setTitle(R.string.app_name);
 
         //For image slider
         viewPager = (ViewPager) findViewById(R.id.pager);

@@ -40,6 +40,8 @@ public class EventsActivity extends NavActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        getSupportActionBar().setTitle("Events");
         // Create the adapter that will return a fragment for each of the five
         // primary sections of the activity.
         mfragmentEvent = new AdapterFragmentEvent(getSupportFragmentManager());
