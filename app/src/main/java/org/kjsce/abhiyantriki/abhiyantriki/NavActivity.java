@@ -1,6 +1,8 @@
 package org.kjsce.abhiyantriki.abhiyantriki;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -12,6 +14,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.view.ViewStub;
 import android.support.v4.widget.DrawerLayout;
+import android.widget.Toast;
 
 public class NavActivity extends AppCompatActivity {
     DrawerLayout dl;
@@ -21,6 +24,7 @@ public class NavActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         super.setContentView(R.layout.drawer_layout);
+
     }
 
     @Override
@@ -126,7 +130,8 @@ public class NavActivity extends AppCompatActivity {
                         startActivity(intent);
                         break;
                     case R.id.register:
-                        intent = new Intent(NavActivity.this, RegisterActivity.class);
+                        String url="https://docs.google.com/forms/d/e/1FAIpQLSfk4SzefjyG5sOUPwqYPplU5qzWq_J7D8YPtkvys4Vd2ZfgHw/closedform";intent=new Intent(Intent.ACTION_VIEW);
+                        intent.setData(Uri.parse(url));
                         startActivity(intent);
                         break;
                     case R.id.reach:

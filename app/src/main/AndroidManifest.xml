@@ -44,12 +44,44 @@
         <activity
             android:name=".ReachUs"
             android:label="Reach Us" />
-        <activity android:name=".ParvaahActivity"
-            android:label="Parvaah"/>
-        <activity android:name=".AboutActivity"
-            android:label="About the Council"/>
-            <activity android:name=".GetInvolved"
-            android:label="Get Involved"></activity>
+        <activity
+            android:name=".ParvaahActivity"
+            android:label="Parvaah" />
+        <activity
+            android:name=".AboutActivity"
+            android:label="About the Council" />
+        <activity
+            android:name=".GetInvolved"
+            android:label="Get Involved" />
+        <activity
+            android:name=".Pubg"
+            android:label="PUBG MOBILE"
+            android:parentActivityName=".EventsActivity"/>
+        <activity
+            android:name=".Laser"
+            android:label="LASER TAG"
+            android:parentActivityName=".EventsActivity"/>
+        <activity
+            android:name=".Drone"
+            android:label="DRONE RACING"
+            android:parentActivityName=".EventsActivity"/>
+        <activity
+            android:name=".Meme"
+            android:label="Meme Quest"
+            android:parentActivityName=".EventsActivity"/>
+        <activity
+            android:name=".Fifa"
+            android:label="FIFA MANAGER"
+            android:parentActivityName=".EventsActivity"/>
+        <activity
+            android:name=".CS"
+            android:label="COUNTER STRIKE"
+            android:parentActivityName=".EventsActivity"/>
+        <activity
+            android:name=".CastleMath"
+            android:label="CASTLE MATH"
+            android:parentActivityName=".EventsActivity"/>
+
     </application>
 
 </manifest>
