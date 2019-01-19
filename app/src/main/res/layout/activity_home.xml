@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -41,51 +40,51 @@
             style="@style/Header"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="About KJSCE"
             android:layout_marginLeft="8dp"
-            android:layout_marginRight="8dp"/>
+            android:layout_marginRight="8dp"
+            android:text="About KJSCE" />
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="153dp"
-            android:src="@drawable/logo"
             android:layout_marginLeft="8dp"
-            android:layout_marginRight="8dp"/>
+            android:layout_marginRight="8dp"
+            android:src="@drawable/logo" />
 
         <TextView
             style="@style/Subtitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:text="@string/kjsce"
-            android:gravity="center_horizontal"
+            android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
-            android:layout_marginLeft="8dp"/>
+            android:layout_marginBottom="16dp"
+            android:gravity="center_horizontal"
+            android:text="@string/kjsce" />
 
         <TextView
             style="@style/Header"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="About Abhiyantriki"
             android:layout_marginLeft="8dp"
-            android:layout_marginRight="8dp"/>
+            android:layout_marginRight="8dp"
+            android:text="About Abhiyantriki" />
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="153dp"
-            android:src="@drawable/logo"
             android:layout_marginLeft="8dp"
-            android:layout_marginRight="8dp"/>
+            android:layout_marginRight="8dp"
+            android:src="@drawable/logo" />
 
         <TextView
             style="@style/Subtitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/abhiyantriki"
-            android:gravity="center"
-            android:layout_marginBottom="16dp"
             android:layout_marginLeft="8dp"
-            android:layout_marginRight="8dp"/>
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="@string/abhiyantriki" />
 
         <View
             android:layout_width="match_parent"
@@ -93,13 +92,13 @@
             android:background="@color/colorPrimary" />
 
         <TextView
+            style="@style/Header"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:text="Timeline"
-            android:textStyle="bold"
             android:textSize="34sp"
-            style="@style/Header"
-            android:gravity="center"/>
+            android:textStyle="bold" />
 
         <ListView
             android:id="@+id/listView"

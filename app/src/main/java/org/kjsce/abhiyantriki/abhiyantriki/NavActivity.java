@@ -127,7 +127,7 @@ public class NavActivity extends AppCompatActivity {
                 int id = menuItem.getItemId();
                 Intent intent;
                 switch (id) {
-                    case R.id.home:
+                    case R.id.homeButton:
                         intent = new Intent(NavActivity.this, HomeActivity.class);
                         startActivity(intent);
                         break;
