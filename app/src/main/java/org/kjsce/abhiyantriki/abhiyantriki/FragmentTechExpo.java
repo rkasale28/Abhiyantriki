@@ -49,7 +49,5 @@ public class FragmentTechExpo extends Fragment {
         gridView.setAdapter(adapterCard1);
         return v;
 
-
-
     }
 }

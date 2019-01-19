@@ -29,8 +29,5 @@ public class SpeakersActivity extends NavActivity {
         adapterCard1 =new AdapterCard1(this,getData());
         gridView.setAdapter(adapterCard1);
 
-        BottomNavigationView bottomNavigationView=(BottomNavigationView) findViewById(R.id.bottom);
-        //For highlighting register button
-        bottomNavigationView.setSelectedItemId(R.id.register);
     }
 }

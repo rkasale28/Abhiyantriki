@@ -9,8 +9,6 @@ public class RegisterActivity extends NavActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
-        BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom);
-        bottomNavigationView.setSelectedItemId(R.id.register);
     }
 }
 

@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <item android:id="@+id/home"
         android:title="Home"
-        android:icon="@drawable/home" />
+        android:icon="@drawable/home"/>
     <item android:id="@+id/map"
         android:title="Map"
-        android:icon="@drawable/map" />
-    <item android:id="@+id/register"
-        android:title="Register"
-        android:icon="@drawable/register" />
+        android:icon="@drawable/map"/>
     <item android:id="@+id/reach"
         android:title="Reach Us"
         android:icon="@drawable/reach" />
     <item android:id="@+id/profile"
         android:title="Profile"
-        android:icon="@drawable/person" />
+        android:icon="@drawable/person"/>
 </menu>

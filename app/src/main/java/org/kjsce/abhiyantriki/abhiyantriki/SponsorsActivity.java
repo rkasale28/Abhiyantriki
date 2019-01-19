@@ -16,7 +16,7 @@ public class SponsorsActivity extends NavActivity {
     AdapterCard2 adapter;
     ExpandableHeightGridView gv;
 
-    //Add Sponsorers in Sponsors Section
+    //Add Sponsors in Sponsors Section
     private ArrayList<ModelCard2> getData() {
         ArrayList<ModelCard2> modelCard2s = new ArrayList<ModelCard2>();
         modelCard2s.add(new ModelCard2(R.drawable.icon, "Hackathon Partner"));
@@ -92,10 +92,6 @@ public class SponsorsActivity extends NavActivity {
         gv.setFocusable(false);
         adapter = new AdapterCard2(this, getData());
         gv.setAdapter(adapter);
-
-        BottomNavigationView bottomNavigationView=(BottomNavigationView) findViewById(R.id.bottom);
-        //Hiding register button
-        bottomNavigationView.getMenu().removeItem(R.id.register);
-    }
+        }
 }
 

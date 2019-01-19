@@ -9,25 +9,39 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="153dp"
-            android:src="@drawable/logo" />
-
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center_horizontal"
-            android:text="@string/techExpo" />
+            android:layout_marginBottom="16dp"
+            android:background="#61003F"
+            android:orientation="vertical"
+            android:paddingBottom="16dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="153dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/techExpo"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
 
         <TextView
+            style="@style/Header"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
             android:gravity="center_horizontal"
             android:text="Tech Expo"
             android:textAllCaps="true" />
 
         <TextView
+            style="@style/CSubtitle"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center_horizontal"
@@ -37,18 +51,23 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="153dp"
+            android:layout_marginBottom="8dp"
             android:src="@drawable/logo" />
 
         <TextView
+            style="@style/Header"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
             android:gravity="center_horizontal"
             android:text="Indian Army"
             android:textAllCaps="true" />
 
         <TextView
+            style="@style/Body2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
             android:gravity="center_horizontal"
             android:text="@string/indianArmy" />
 
@@ -57,9 +76,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
+            android:horizontalSpacing="1dp"
             android:numColumns="2"
             android:stretchMode="columnWidth"
-            android:verticalSpacing="1dp"
-            android:horizontalSpacing="1dp"/>
+            android:verticalSpacing="1dp" />
     </LinearLayout>
 </ScrollView>

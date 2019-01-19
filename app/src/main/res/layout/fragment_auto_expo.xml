@@ -1,28 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="153dp"
-        android:src="@drawable/logo" />
-
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:text="@string/autoexpo" />
+        android:layout_marginBottom="16dp"
+        android:background="#61003F"
+        android:orientation="vertical"
+        android:paddingBottom="16dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="153dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/autoexpo"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
 
     <org.kjsce.abhiyantriki.abhiyantriki.ExpandableHeightGridView
         android:id="@+id/grid_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
+        android:horizontalSpacing="1dp"
         android:numColumns="2"
         android:stretchMode="columnWidth"
-        android:verticalSpacing="1dp"
-        android:horizontalSpacing="1dp"/>
+        android:verticalSpacing="1dp" />
 </LinearLayout>
+</ScrollView>

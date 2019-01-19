@@ -157,5 +157,9 @@
     <!--        getInvolved String      -->
     <string name="getInvolved1">Do you know someone with the potential to build something that pawns over the technology being displayed in Abhiyantriki and will leave the audience awestruck? If yes, feel free to add their details in the form below and we’ll reach out to them!</string>
     <string name="getInvolved2">Sponsors and Partners are a key component that helps make Abhiyantriki a fest worthy of all the praise and acclaim it has been garnered over the ages. Along with monetary support, you can feel free to help us out in any other way possible. Fill out the form below to get in touch with us :</string>
+    <string name="title_activity_nav1">NavActivity1</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 
 </resources>

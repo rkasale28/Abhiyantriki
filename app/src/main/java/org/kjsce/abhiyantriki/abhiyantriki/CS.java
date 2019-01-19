@@ -15,9 +15,5 @@ public class CS extends NavActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cs);
 
-        BottomNavigationView bottomNavigationView=(BottomNavigationView)findViewById(R.id.bottom);
-        //Highlighting Register button
-        bottomNavigationView.setSelectedItemId(R.id.register);
-
     }
 }

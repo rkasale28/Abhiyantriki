@@ -11,8 +11,6 @@ public class ReachUs extends NavActivity {
         setContentView(R.layout.activity_reach_us);
 
         BottomNavigationView bottomNavigationView=(BottomNavigationView) findViewById(R.id.bottom);
-        //Hide register button
-        bottomNavigationView.getMenu().removeItem(R.id.register);
         //Highlight Reach Us button
         bottomNavigationView.setSelectedItemId(R.id.reach);
     }

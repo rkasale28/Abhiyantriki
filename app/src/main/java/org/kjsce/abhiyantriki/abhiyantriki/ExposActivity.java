@@ -45,9 +45,6 @@ public class ExposActivity extends NavActivity {
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs2);
         tabLayout.setupWithViewPager(mViewPager);
 
-        BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom);
-        //For highlighting register button
-        bottomNavigationView.setSelectedItemId(R.id.register);
-    }
+        }
 }
 

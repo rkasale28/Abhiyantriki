@@ -9,7 +9,7 @@ public class MapActivity extends NavActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map);
         BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom);
+        //For highlighting map
         bottomNavigationView.setSelectedItemId(R.id.map);
-        bottomNavigationView.getMenu().removeItem(R.id.register);
     }
 }

@@ -126,8 +126,6 @@ public class HomeActivity extends NavActivity {
         BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom);
         //For highlighting home button
         bottomNavigationView.setSelectedItemId(R.id.home);
-        //For hiding register button
-        bottomNavigationView.getMenu().removeItem(R.id.register);
     }
 
 

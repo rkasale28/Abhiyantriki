@@ -41,36 +41,51 @@
             style="@style/Header"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="About KJSCE" />
+            android:text="About KJSCE"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="137dp"
-            android:src="@drawable/logo" />
+            android:layout_height="153dp"
+            android:src="@drawable/logo"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
 
         <TextView
             style="@style/Subtitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:text="@string/kjsce" />
+            android:text="@string/kjsce"
+            android:gravity="center_horizontal"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"/>
 
         <TextView
             style="@style/Header"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="About Abhiyantriki" />
+            android:text="About Abhiyantriki"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="137dp"
-            android:src="@drawable/logo" />
+            android:layout_height="153dp"
+            android:src="@drawable/logo"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
 
         <TextView
             style="@style/Subtitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/abhiyantriki" />
+            android:text="@string/abhiyantriki"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
 
         <View
             android:layout_width="match_parent"
@@ -82,7 +97,9 @@
             android:layout_height="wrap_content"
             android:text="Timeline"
             android:textStyle="bold"
-            android:textSize="34sp"/>
+            android:textSize="34sp"
+            style="@style/Header"
+            android:gravity="center"/>
 
         <ListView
             android:id="@+id/listView"

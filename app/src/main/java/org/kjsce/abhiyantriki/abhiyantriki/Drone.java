@@ -15,9 +15,5 @@ public class Drone extends NavActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_drones);
 
-        BottomNavigationView bottomNavigationView=(BottomNavigationView)findViewById(R.id.bottom);
-        //Highlighting Register button
-        bottomNavigationView.setSelectedItemId(R.id.register);
-
     }
 }

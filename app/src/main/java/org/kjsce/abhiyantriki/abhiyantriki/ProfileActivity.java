@@ -9,7 +9,8 @@ public class ProfileActivity extends NavActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
         BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom);
+        //For highlighting Profile button
         bottomNavigationView.setSelectedItemId(R.id.profile);
-        bottomNavigationView.getMenu().removeItem(R.id.register);
+
     }
 }

@@ -12,6 +12,9 @@
         android:id="@+id/speakers"
         android:title="Speakers" />
     <item
+        android:id="@+id/register"
+        android:title="Register" />
+    <item
         android:id="@+id/parvaah"
         android:title="Parvaah" />
     <item

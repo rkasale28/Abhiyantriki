@@ -34,10 +34,6 @@ public class EventsActivity extends NavActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_events);
 
-        bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom);
-        //For hiding register button
-        bottomNavigationView.getMenu().removeItem(R.id.register);
-
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
