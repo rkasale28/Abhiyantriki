@@ -2,9 +2,14 @@ package org.kjsce.abhiyantriki.abhiyantriki;
 
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.support.design.widget.BottomNavigationView;
 import android.support.design.widget.TabLayout;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
+import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,7 +20,7 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
-public class HomeActivity extends NavActivity {
+public class HomeActivity extends NavActivity{
     AdapterFlagship flagship;
     AdapterTimeline timeline;
     ViewPager viewPager;
@@ -46,7 +51,7 @@ public class HomeActivity extends NavActivity {
         listView.setLayoutParams(params);
     }
 
-    //Press back twice to exit
+   //Press back twice to exit
     boolean doubleBackToExitPressedOnce = false;
 
     @Override
@@ -123,10 +128,9 @@ public class HomeActivity extends NavActivity {
         //For setting height of ListView dynamically
         setListViewHeightBasedOnChildren(listView);
 
-        BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom);
+        /*BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom);
         //For highlighting home button
-        bottomNavigationView.setSelectedItemId(R.id.home);
+        bottomNavigationView.setSelectedItemId(R.id.homeButton);*/
     }
-
 
 }

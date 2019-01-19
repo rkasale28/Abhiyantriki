@@ -11,7 +11,9 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".HomeActivity"
-            android:label="Abhiyantriki">
+            android:label="Abhiyantriki"
+            android:screenOrientation="portrait">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -33,17 +35,8 @@
             android:name=".SponsorsActivity"
             android:label="Sponsors" />
         <activity
-            android:name=".MapActivity"
-            android:label="Map" />
-        <activity
             android:name=".RegisterActivity"
             android:label="Register" />
-        <activity
-            android:name=".ProfileActivity"
-            android:label="My Profile" />
-        <activity
-            android:name=".ReachUs"
-            android:label="Reach Us" />
         <activity
             android:name=".ParvaahActivity"
             android:label="Parvaah" />
@@ -55,32 +48,34 @@
             android:label="Get Involved" />
         <activity
             android:name=".Pubg"
-            android:label="PUBG MOBILE"
-            android:parentActivityName=".EventsActivity" />
+            android:label="PUBG MOBILE"/>
         <activity
             android:name=".Laser"
-            android:label="LASER TAG"
-            android:parentActivityName=".EventsActivity" />
+            android:label="LASER TAG" />
         <activity
             android:name=".Drone"
-            android:label="DRONE RACING"
-            android:parentActivityName=".EventsActivity" />
+            android:label="DRONE RACING"/>
         <activity
             android:name=".Meme"
-            android:label="Meme Quest"
-            android:parentActivityName=".EventsActivity" />
+            android:label="Meme Quest" />
         <activity
             android:name=".Fifa"
-            android:label="FIFA MANAGER"
-            android:parentActivityName=".EventsActivity" />
+            android:label="FIFA MANAGER"/>
         <activity
             android:name=".CS"
-            android:label="COUNTER STRIKE"
-            android:parentActivityName=".EventsActivity" />
+            android:label="COUNTER STRIKE"/>
         <activity
             android:name=".CastleMath"
-            android:label="CASTLE MATH"
-            android:parentActivityName=".EventsActivity" />
+            android:label="CASTLE MATH" />
+
+        <activity android:name=".MapActivity"
+            android:label="Maps"/>
+
+        <activity android:name=".ReachUs"
+            android:label="Reach Us"/>
+
+        <activity android:name=".ProfileActivity"
+            android:label="My Profile"/>
     </application>
 
 </manifest>

@@ -26,7 +26,7 @@ public class FragmentInternshipExpo extends Fragment {
         knowMore.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String url="https://docs.google.com/forms/d/e/1FAIpQLSfk4SzefjyG5sOUPwqYPplU5qzWq_J7D8YPtkvys4Vd2ZfgHw/closedform";
+                String url="https://drive.google.com/drive/folders/1E-ylz6EYvcXZyBIuvHprw12JSssOIodw";
                 Intent intent=new Intent(Intent.ACTION_VIEW);
                 intent.setData(Uri.parse(url));
                 startActivity(intent);
@@ -38,7 +38,7 @@ public class FragmentInternshipExpo extends Fragment {
         participateCompany.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String url="https://docs.google.com/forms/d/e/1FAIpQLSfk4SzefjyG5sOUPwqYPplU5qzWq_J7D8YPtkvys4Vd2ZfgHw/closedform";
+                String url="https://docs.google.com/forms/d/e/1FAIpQLSdz6z2V_ySsPIWrxU3Xlpo0xHpbNYLjVoiwYZQ9NbDEiJp0_A/closedform";
                 Intent intent=new Intent(Intent.ACTION_VIEW);
                 intent.setData(Uri.parse(url));
                 startActivity(intent);
@@ -50,7 +50,7 @@ public class FragmentInternshipExpo extends Fragment {
         knowMore.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String url="https://docs.google.com/forms/d/e/1FAIpQLSfk4SzefjyG5sOUPwqYPplU5qzWq_J7D8YPtkvys4Vd2ZfgHw/closedform";
+                String url="https://docs.google.com/forms/d/e/1FAIpQLSeKxktX9hiG5thb7jnrm3lpKyPFva4P9CXu_WWC6wmL6p6AfQ/closedform";
                 Intent intent=new Intent(Intent.ACTION_VIEW);
                 intent.setData(Uri.parse(url));
                 startActivity(intent);
