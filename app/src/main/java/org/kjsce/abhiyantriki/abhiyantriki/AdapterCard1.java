@@ -95,6 +95,15 @@ public class AdapterCard1 extends BaseAdapter {
                         intent = new Intent(c, CastleMath.class);
                         startActivity(c, intent, null);
                         break;
+                    case "Digital Poster Design Contest":
+                        intent = new Intent(c, PreEvents1.class);
+                        startActivity(c, intent, null);
+                        break;
+                    case "KJSCE Mumbai Open 2018":
+                        intent = new Intent(c, PreEvents2.class);
+                        startActivity(c, intent, null);
+                        break;
+
                     default:
                         Toast.makeText(c, modelCard1.ename, Toast.LENGTH_SHORT).show();
                 }

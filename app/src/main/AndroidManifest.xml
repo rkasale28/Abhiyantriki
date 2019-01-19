@@ -48,34 +48,40 @@
             android:label="Get Involved" />
         <activity
             android:name=".Pubg"
-            android:label="PUBG MOBILE"/>
+            android:label="PUBG MOBILE" />
         <activity
             android:name=".Laser"
             android:label="LASER TAG" />
         <activity
             android:name=".Drone"
-            android:label="DRONE RACING"/>
+            android:label="DRONE RACING" />
         <activity
             android:name=".Meme"
             android:label="Meme Quest" />
         <activity
             android:name=".Fifa"
-            android:label="FIFA MANAGER"/>
+            android:label="FIFA MANAGER" />
         <activity
             android:name=".CS"
-            android:label="COUNTER STRIKE"/>
+            android:label="COUNTER STRIKE" />
         <activity
             android:name=".CastleMath"
             android:label="CASTLE MATH" />
-
-        <activity android:name=".MapActivity"
-            android:label="Maps"/>
-
-        <activity android:name=".ReachUs"
-            android:label="Reach Us"/>
-
-        <activity android:name=".ProfileActivity"
-            android:label="My Profile"/>
+        <activity
+            android:name=".MapActivity"
+            android:label="Maps" />
+        <activity
+            android:name=".ReachUs"
+            android:label="Reach Us" />
+        <activity
+            android:name=".ProfileActivity"
+            android:label="My Profile" />
+        <activity
+            android:name=".PreEvents1"
+            android:label="Digital Poster Design Contest" />
+        <activity
+            android:name=".PreEvents2"
+            android:label="KJSCE Mumbai Open 2018" />
     </application>
 
 </manifest>
