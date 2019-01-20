@@ -35,9 +35,6 @@
             android:name=".SponsorsActivity"
             android:label="Sponsors" />
         <activity
-            android:name=".RegisterActivity"
-            android:label="Register" />
-        <activity
             android:name=".ParvaahActivity"
             android:label="Parvaah" />
         <activity

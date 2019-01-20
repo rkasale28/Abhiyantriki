@@ -1,5 +1,6 @@
 package org.kjsce.abhiyantriki.abhiyantriki;
 
+import android.content.Context;
 import android.support.design.widget.BottomNavigationView;
 import android.support.design.widget.TabLayout;
 import android.support.v7.app.AppCompatActivity;
@@ -8,12 +9,13 @@ import android.support.v7.widget.Toolbar;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.widget.FrameLayout;
 
 import java.util.ArrayList;
 
 public class EventsActivity extends NavActivity {
-    BottomNavigationView bottomNavigationView;
-
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
      * fragments for each of the sections. We use a
@@ -32,7 +34,15 @@ public class EventsActivity extends NavActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_events);
+
+        FrameLayout frameLayout=(FrameLayout) findViewById(R.id.frame);
+
+        LayoutInflater inflater=(LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
+        View activityView=inflater.inflate(R.layout.activity_events,null,false);
+
+        frameLayout.addView(activityView);
+
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);

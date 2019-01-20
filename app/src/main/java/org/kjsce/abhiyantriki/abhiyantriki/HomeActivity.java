@@ -1,5 +1,6 @@
 package org.kjsce.abhiyantriki.abhiyantriki;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.NonNull;
@@ -14,6 +15,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AbsListView;
+import android.widget.FrameLayout;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
@@ -98,7 +100,13 @@ public class HomeActivity extends NavActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        FrameLayout frameLayout=(FrameLayout) findViewById(R.id.frame);
+
+        LayoutInflater inflater=(LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
+        View activityView=inflater.inflate(R.layout.activity_home,null,false);
+
+        frameLayout.addView(activityView);
         getSupportActionBar().setTitle(R.string.app_name);
 
         //For image slider

@@ -1,11 +1,15 @@
 package org.kjsce.abhiyantriki.abhiyantriki;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.design.widget.BottomNavigationView;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.widget.Toolbar;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.widget.FrameLayout;
 
 import java.util.ArrayList;
 
@@ -28,12 +32,22 @@ public class ExposActivity extends NavActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_expos);
+
+        FrameLayout frameLayout=(FrameLayout) findViewById(R.id.frame);
+
+        LayoutInflater inflater=(LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
+        View activityView=inflater.inflate(R.layout.activity_expos,null,false);
+
+        frameLayout.addView(activityView);
+
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         getSupportActionBar().setTitle("Expos");
+
+
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
         mfragmentexpo = new AdapterFragmentExpo(getSupportFragmentManager());

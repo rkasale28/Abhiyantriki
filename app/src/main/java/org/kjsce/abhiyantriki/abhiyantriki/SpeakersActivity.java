@@ -1,8 +1,12 @@
 package org.kjsce.abhiyantriki.abhiyantriki;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.BottomNavigationView;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.widget.FrameLayout;
 import android.widget.GridView;
 
 import java.util.ArrayList;
@@ -22,7 +26,13 @@ public class SpeakersActivity extends NavActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_speakers);
+        FrameLayout frameLayout=(FrameLayout) findViewById(R.id.frame);
+
+        LayoutInflater inflater=(LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
+        View activityView=inflater.inflate(R.layout.activity_speakers,null,false);
+
+        frameLayout.addView(activityView);
 
         //For instantiating grid view
         gridView=(ExpandableHeightGridView) findViewById(R.id.grid_view);

@@ -1,7 +1,6 @@
 package org.kjsce.abhiyantriki.abhiyantriki;
 
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -14,7 +13,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.view.ViewStub;
 import android.support.v4.widget.DrawerLayout;
-import android.widget.Toast;
 
 public class NavActivity extends AppCompatActivity {
     DrawerLayout dl;
@@ -25,13 +23,6 @@ public class NavActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         super.setContentView(R.layout.drawer_layout);
 
-    }
-
-    @Override
-    public void setContentView(int layoutResID) {
-        ViewStub stub = findViewById(R.id.navdrawer_stub);
-        stub.setLayoutResource(layoutResID);
-        stub.inflate();
     }
 
     @Override
@@ -105,7 +96,7 @@ public class NavActivity extends AppCompatActivity {
                         startActivity(intent);
                         break;
                     case R.id.AboutUs:
-                        intent = new Intent(NavActivity.this, AboutActivity.class);
+                        intent = new Intent(NavActivity.this,AboutActivity.class);
                         startActivity(intent);
                         break;
                     case R.id.get_involved:
