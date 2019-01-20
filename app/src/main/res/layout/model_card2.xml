@@ -9,12 +9,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Partner"
-        android:gravity="center_horizontal"/>
+        android:gravity="center_horizontal"
+        style="@style/CTitle"
+        android:layout_marginBottom="8dp"/>
 
     <ImageView
         android:id="@+id/company_logo"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/icon"/>
+        android:src="@drawable/icon"
+        android:layout_marginBottom="8dp"/>
 
 </LinearLayout>
