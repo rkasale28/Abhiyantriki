@@ -99,13 +99,312 @@
             android:text="Timeline"
             android:textSize="34sp"
             android:textStyle="bold" />
-
+        <!--
         <ListView
             android:id="@+id/listView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:divider="@android:color/white"/>
+        -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+           >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/symbol1"
+                android:layout_width="54dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/timeline_symbol"
+                android:scaleType="fitCenter"
+                />
 
+            <View
+                android:id="@+id/line1"
+                android:layout_width="2dp"
+                android:layout_height="72dp"
+                android:layout_gravity="center"
+                app:layout_constraintRight_toLeftOf="@+id/ll1"
+                app:layout_constraintLeft_toLeftOf="@id/symbol1"
+                android:background="@color/colorPrimary"
+                />
+        <LinearLayout
+            android:layout_width="324dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintLeft_toRightOf="@id/symbol1"
+            android:id="@+id/ll1">
+
+            <TextView
+                android:id="@+id/year1998"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1998"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/content1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:text="@string/year_98"
+                android:textSize="12sp" />
+        </LinearLayout>
+            </android.support.constraint.ConstraintLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/symbol2"
+                    android:layout_width="54dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/timeline_symbol"/>
+
+                <View
+                    android:id="@+id/line2"
+                    android:layout_width="2dp"
+                    android:layout_height="72dp"
+                    android:layout_gravity="center"
+                    app:layout_constraintRight_toLeftOf="@+id/ll2"
+                    app:layout_constraintLeft_toLeftOf="@id/symbol2"
+                    android:background="@color/colorPrimary"
+                    />
+            <LinearLayout
+                android:layout_width="324dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintLeft_toRightOf="@id/symbol2"
+                android:id="@+id/ll2">
+
+                <TextView
+                    android:id="@+id/year2008"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2008"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/content2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16dp"
+                    android:text="@string/year_08"
+                    android:textSize="12sp" />
+            </LinearLayout>
+                </android.support.constraint.ConstraintLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/symbol3"
+                    android:layout_width="54dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/timeline_symbol"/>
+
+                <View
+                    android:id="@+id/line3"
+                    android:layout_width="2dp"
+                    android:layout_height="72dp"
+                    android:layout_gravity="center"
+                    app:layout_constraintRight_toLeftOf="@+id/ll3"
+                    app:layout_constraintLeft_toLeftOf="@id/symbol3"
+                    android:background="@color/colorPrimary"
+                    />
+            <LinearLayout
+                android:layout_width="324dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintLeft_toRightOf="@id/symbol3"
+                android:id="@+id/ll3">
+
+                <TextView
+                    android:id="@+id/year2009"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2009"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/content3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16dp"
+                    android:text="@string/year_09"
+                    android:textSize="12sp" />
+            </LinearLayout>
+                </android.support.constraint.ConstraintLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/symbol4"
+                    android:layout_width="54dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/timeline_symbol"/>
+
+                <View
+                    android:id="@+id/line4"
+                    android:layout_width="2dp"
+                    android:layout_height="72dp"
+                    android:layout_gravity="center"
+                    app:layout_constraintRight_toLeftOf="@+id/ll4"
+                    app:layout_constraintLeft_toLeftOf="@id/symbol4"
+                    android:background="@color/colorPrimary"
+                    />
+            <LinearLayout
+                android:layout_width="324dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintLeft_toRightOf="@id/symbol4"
+                android:id="@+id/ll4">
+
+                <TextView
+                    android:id="@+id/year2014"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2014"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/content4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16dp"
+                    android:text="@string/year_14"
+                    android:textSize="12sp" />
+            </LinearLayout>
+             </android.support.constraint.ConstraintLayout>
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/symbol5"
+                    android:layout_width="54dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/timeline_symbol"/>
+
+                <View
+                    android:id="@+id/line5"
+                    android:layout_width="2dp"
+                    android:layout_height="72dp"
+                    android:layout_gravity="center"
+                    app:layout_constraintRight_toLeftOf="@+id/ll5"
+                    app:layout_constraintLeft_toLeftOf="@id/symbol5"
+                    android:background="@color/colorPrimary"
+                    />
+            <LinearLayout
+                android:layout_width="324dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintLeft_toRightOf="@id/symbol5"
+                android:id="@+id/ll5">
+
+                <TextView
+                    android:id="@+id/year2016"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2016"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/content5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16dp"
+                    android:text="@string/year_16"
+                    android:textSize="12sp" />
+            </LinearLayout>
+                </android.support.constraint.ConstraintLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/symbol6"
+                    android:layout_width="54dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/timeline_symbol"/>
+
+                <View
+                    android:id="@+id/line6"
+                    android:layout_width="2dp"
+                    android:layout_height="72dp"
+                    android:layout_gravity="center"
+                    app:layout_constraintRight_toLeftOf="@+id/ll6"
+                    app:layout_constraintLeft_toLeftOf="@id/symbol6"
+                    android:background="@color/colorPrimary"
+                    />
+            <LinearLayout
+                android:layout_width="324dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintLeft_toRightOf="@id/symbol6"
+                android:id="@+id/ll6">
+
+                <TextView
+                    android:id="@+id/year2017"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2017"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/content6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/year_17"
+                    android:textSize="12sp" />
+            </LinearLayout>
+                </android.support.constraint.ConstraintLayout>
+
+        </LinearLayout>
+        </LinearLayout>
     </LinearLayout>
 
 </ScrollView>

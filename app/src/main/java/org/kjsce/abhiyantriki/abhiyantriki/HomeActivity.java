@@ -86,6 +86,7 @@ public class HomeActivity extends NavActivity{
     }
 
     //For inserting elements in Timeline
+    /*
     private ArrayList<ModelTimeline> getTData() {
         ArrayList<ModelTimeline> timelineModels = new ArrayList<>();
         timelineModels.add(new ModelTimeline("1998", getString(R.string.year_98)));
@@ -96,6 +97,7 @@ public class HomeActivity extends NavActivity{
         timelineModels.add(new ModelTimeline("2017", getString(R.string.year_17)));
         return timelineModels;
     }
+    */
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -119,6 +121,7 @@ public class HomeActivity extends NavActivity{
         tabLayout.setupWithViewPager(viewPager);
 
         //For timeline
+        /*
         listView = (ListView) findViewById(R.id.listView);
         timeline = new AdapterTimeline(this, getTData());
         listView.setAdapter(timeline);
@@ -132,9 +135,9 @@ public class HomeActivity extends NavActivity{
                 return false;
             }
         });
-
+        */
         //For setting height of ListView dynamically
-        setListViewHeightBasedOnChildren(listView);
+        //setListViewHeightBasedOnChildren(listView);
 
         /*BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom);
         //For highlighting home button
