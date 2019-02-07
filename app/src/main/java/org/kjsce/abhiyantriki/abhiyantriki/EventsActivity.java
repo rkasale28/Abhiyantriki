@@ -1,7 +1,9 @@
 package org.kjsce.abhiyantriki.abhiyantriki;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.design.widget.BottomNavigationView;
+import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.TabLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -38,6 +40,14 @@ public class EventsActivity extends NavActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        FloatingActionButton floatingActionButton=(FloatingActionButton) findViewById(R.id.fab);
+        floatingActionButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(EventsActivity.this,HomeActivity.class);
+                startActivity(intent);
+            }        });
 
         // Create the adapter that will return a fragment for each of the five
         // primary sections of the activity.

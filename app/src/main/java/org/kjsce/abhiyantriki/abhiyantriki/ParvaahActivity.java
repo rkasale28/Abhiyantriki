@@ -8,6 +8,7 @@ import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.support.design.widget.BottomNavigationView;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -26,6 +27,14 @@ public class ParvaahActivity extends NavActivity {
         setContentView(R.layout.activity_parvaah);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        FloatingActionButton floatingActionButton=(FloatingActionButton) findViewById(R.id.fab);
+        floatingActionButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(ParvaahActivity.this,HomeActivity.class);
+                startActivity(intent);
+            }        });
 
         myDialog = new Dialog(this);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);

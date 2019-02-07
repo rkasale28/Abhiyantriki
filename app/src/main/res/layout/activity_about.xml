@@ -18,5 +18,7 @@
         android:layout_height="wrap_content"
         android:text="Welcome to About Section"
         android:layout_below="@id/toolbar"/>
+    <include layout="@layout/action_home"/>
+
 
 </RelativeLayout>

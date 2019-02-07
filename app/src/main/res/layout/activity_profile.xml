@@ -18,4 +18,6 @@
         android:text="Welcome to Profile Section"
         android:layout_below="@id/toolbar"/>
 
+    <include layout="@layout/action_home"/>
+
 </RelativeLayout>

@@ -2,6 +2,7 @@ package org.kjsce.abhiyantriki.abhiyantriki;
 
 import android.content.Context;
 import android.support.design.widget.BottomNavigationView;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
@@ -24,6 +25,15 @@ public class GetInvolved extends NavActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        FloatingActionButton floatingActionButton=(FloatingActionButton) findViewById(R.id.fab);
+        floatingActionButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(GetInvolved.this,HomeActivity.class);
+                startActivity(intent);
+            }        });
+
 
         TextView textView1 = (TextView) findViewById(R.id.nominate_exhibitor);
         textView1.setOnClickListener(new View.OnClickListener() {

@@ -132,4 +132,5 @@
                 android:padding="8dp" />
         </LinearLayout>
     </ScrollView>
+    <include layout="@layout/action_home"/>
 </RelativeLayout>

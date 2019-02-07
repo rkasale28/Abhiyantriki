@@ -102,4 +102,5 @@
                 android:stretchMode="columnWidth" />
         </LinearLayout>
     </ScrollView>
+    <include layout="@layout/action_home"/>
 </RelativeLayout>

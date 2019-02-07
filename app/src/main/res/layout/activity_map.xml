@@ -19,5 +19,6 @@
         android:layout_height="wrap_content"
         android:text="Welcome to Map Section"
         android:layout_below="@id/toolbar" />
+    <include layout="@layout/action_home"/>
 
 </RelativeLayout>
