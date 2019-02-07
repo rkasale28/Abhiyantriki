@@ -56,6 +56,7 @@ public class NavActivity extends AppCompatActivity {
         abdt = new ActionBarDrawerToggle(this, dl, R.string.Open, R.string.Close);
 
         abdt.setDrawerIndicatorEnabled(true);
+        abdt.getDrawerArrowDrawable().setColor(getResources().getColor(R.color.white));
 
         dl.addDrawerListener(abdt);
         abdt.syncState();

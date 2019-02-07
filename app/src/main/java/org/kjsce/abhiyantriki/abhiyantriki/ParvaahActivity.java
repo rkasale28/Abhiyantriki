@@ -10,6 +10,7 @@ import android.net.Uri;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.FrameLayout;
@@ -18,10 +19,13 @@ import android.widget.TextView;
 
 public class ParvaahActivity extends NavActivity {
     Dialog myDialog;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_parvaah);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
         myDialog = new Dialog(this);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -37,10 +41,11 @@ public class ParvaahActivity extends NavActivity {
         });
 
     }
+
     public void ShowPopup1(View v) {
         TextView txtclose;
         myDialog.setContentView(R.layout.popup_school_awareness);
-        txtclose =(TextView) myDialog.findViewById(R.id.txtclose);
+        txtclose = (TextView) myDialog.findViewById(R.id.txtclose);
         txtclose.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -54,7 +59,7 @@ public class ParvaahActivity extends NavActivity {
     public void ShowPopup2(View v) {
         TextView txtclose;
         myDialog.setContentView(R.layout.popup_plastic_drive);
-        txtclose =(TextView) myDialog.findViewById(R.id.txtclose);
+        txtclose = (TextView) myDialog.findViewById(R.id.txtclose);
         txtclose.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -68,7 +73,7 @@ public class ParvaahActivity extends NavActivity {
     public void ShowPopup3(View v) {
         TextView txtclose;
         myDialog.setContentView(R.layout.popup_ganpati);
-        txtclose =(TextView) myDialog.findViewById(R.id.txtclose);
+        txtclose = (TextView) myDialog.findViewById(R.id.txtclose);
         txtclose.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -82,7 +87,7 @@ public class ParvaahActivity extends NavActivity {
     public void ShowPopup4(View v) {
         TextView txtclose;
         myDialog.setContentView(R.layout.popup_signalshala);
-        txtclose =(TextView) myDialog.findViewById(R.id.txtclose);
+        txtclose = (TextView) myDialog.findViewById(R.id.txtclose);
         txtclose.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -96,7 +101,7 @@ public class ParvaahActivity extends NavActivity {
     public void ShowPopup5(View v) {
         TextView txtclose;
         myDialog.setContentView(R.layout.popup_secretsanta);
-        txtclose =(TextView) myDialog.findViewById(R.id.txtclose);
+        txtclose = (TextView) myDialog.findViewById(R.id.txtclose);
         txtclose.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -110,7 +115,7 @@ public class ParvaahActivity extends NavActivity {
     public void ShowPopup6(View v) {
         TextView txtclose;
         myDialog.setContentView(R.layout.popup_marathon);
-        txtclose =(TextView) myDialog.findViewById(R.id.txtclose);
+        txtclose = (TextView) myDialog.findViewById(R.id.txtclose);
         txtclose.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

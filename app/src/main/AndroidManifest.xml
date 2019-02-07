@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme.NoActionBar">
         <activity
             android:name=".HomeActivity"
             android:label="Abhiyantriki"
@@ -22,12 +22,10 @@
         </activity>
         <activity
             android:name=".EventsActivity"
-            android:label="Events"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:label="Events" />
         <activity
             android:name=".ExposActivity"
-            android:label="Expos"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:label="Expos" />
         <activity
             android:name=".SpeakersActivity"
             android:label="Speakers" />

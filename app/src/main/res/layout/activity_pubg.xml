@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:title="PUBG Mobile"
+        app:titleTextColor="@android:color/white"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_below="@id/toolbar">
 
         <ImageView
             android:layout_width="match_parent"
@@ -105,18 +114,29 @@
                     android:layout_marginRight="16dp"
                     android:text=": Team of 4"
                     android:textStyle="bold" />
-
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
                 <TextView
                     style="@style/Subtitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="16dp"
-                    android:text=": Vansh: 9167958278
-  Arsh: 9920443331"
+                    android:text=": Vansh: 9167958278"
                     android:textStyle="bold" />
+
+    <TextView
+        style="@style/Subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:text=": Arsh: 9920443331"
+        android:textStyle="bold" />
+</LinearLayout>
 
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
 
-    </android.support.constraint.ConstraintLayout>
+    </RelativeLayout>

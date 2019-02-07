@@ -37,9 +37,6 @@ public class ExposActivity extends NavActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        getSupportActionBar().setTitle("Expos");
-
-
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
         mfragmentexpo = new AdapterFragmentExpo(getSupportFragmentManager());

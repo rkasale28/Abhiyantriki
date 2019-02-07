@@ -1,113 +1,135 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools">
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="8dp"
-        android:layout_margin="8dp"
-        android:background="@drawable/back"
-        android:orientation="vertical"
-        tools:context=".MainActivity">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Help Us Engineer Abhiyantriki"
-            android:textAllCaps="true"
-            android:textStyle="bold"
-            android:textColor="#61003F"
-            android:textAlignment="center"
-            android:textSize="30sp"
-            android:fontFamily="sans-serif"
-            />
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
 
-        <View
-            android:layout_width="fill_parent"
-            android:layout_height="4dp"
-            android:padding="8dp"
-            android:layout_margin="8dp"
-            android:background="#61003F"/>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="8dp"
-            android:orientation="vertical"
-            android:layout_margin="8dp"
-            android:background="@drawable/back"
-            >
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/getInvolved1"
-                android:textColor="#61003F"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:fontFamily="sans-serif"
-
-                />
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Nominate An Exhibitor"
-                android:background="#61003F"
-                android:textAllCaps="true"
-                android:textColor="#FFFFFF"
-                android:fontFamily="sans-serif"
-
-                android:id="@+id/nominate_exhibitor"
-                />
-        </LinearLayout>
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="75dp"
-            android:src="@drawable/getinvolved"
-            android:scaleType="fitXY"
-            android:padding="8dp"
-            android:layout_margin="8dp"
-            />
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="8dp"
-            android:layout_margin="8dp"
-            android:orientation="vertical"
-            android:background="@drawable/back"
-            >
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/getInvolved2"
-                android:textColor="#61003F"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:fontFamily="sans-serif"
-
-
-                />
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Partner With Us"
-                android:background="#61003F"
-                android:textAllCaps="true"
-                android:textColor="#FFFFFF"
-                android:id="@+id/partner_exhibitor"
-                android:fontFamily="sans-serif"
-
-                />
-        </LinearLayout>
-
-    </LinearLayout>
-    <LinearLayout
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="8dp"
-        android:layout_margin="8dp"
-        android:padding="8dp"
-        />
-    </LinearLayout>
-</ScrollView>
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:title="Get Involved"
+        app:titleTextColor="@android:color/white"/>
+
+    <ScrollView
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/back"
+                android:orientation="vertical"
+                android:padding="8dp"
+                tools:context=".MainActivity">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text="Help Us Engineer Abhiyantriki"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#61003F"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="4dp"
+                    android:layout_margin="8dp"
+                    android:background="#61003F"
+                    android:padding="8dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/back"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:text="@string/getInvolved1"
+                        android:textAlignment="center"
+                        android:textColor="#61003F"
+                        android:textSize="20sp"
+
+                        />
+
+                    <Button
+                        android:id="@+id/nominate_exhibitor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#61003F"
+                        android:fontFamily="sans-serif"
+                        android:text="Nominate An Exhibitor"
+                        android:textAllCaps="true"
+
+                        android:textColor="#FFFFFF" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="75dp"
+                    android:layout_margin="8dp"
+                    android:padding="8dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/getinvolved" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/back"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:text="@string/getInvolved2"
+                        android:textAlignment="center"
+                        android:textColor="#61003F"
+                        android:textSize="20sp"
+
+
+                        />
+
+                    <Button
+                        android:id="@+id/partner_exhibitor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#61003F"
+                        android:fontFamily="sans-serif"
+                        android:text="Partner With Us"
+                        android:textAllCaps="true"
+                        android:textColor="#FFFFFF"
+
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:layout_margin="8dp"
+                android:padding="8dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

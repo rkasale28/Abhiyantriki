@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:title="Digital Poster Design Contest"
+        app:titleTextColor="@android:color/white"/>
+
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="fill_parent"
-        android:orientation="vertical">
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/toolbar">
 
 
         <LinearLayout
@@ -114,14 +124,26 @@
                         android:text=": 23:59, 2nd Oct, '18"
                         android:textStyle="bold" />
 
-                    <TextView
-                        style="@style/Subtitle"
+                    <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="16dp"
-                        android:text=": Vansh : 123456789
-  Arsh     :123456789"
-                        android:textStyle="bold" />
+                        android:orientation="vertical">
+                        <TextView
+                            style="@style/Subtitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="16dp"
+                            android:text=": Vansh : 123456789"
+                            android:textStyle="bold" />
+                        <TextView
+                            style="@style/Subtitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="16dp"
+                            android:text="  Arsh     :123456789"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
 
                 </LinearLayout>
             </LinearLayout>
@@ -129,4 +151,4 @@
 
     </ScrollView>
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>

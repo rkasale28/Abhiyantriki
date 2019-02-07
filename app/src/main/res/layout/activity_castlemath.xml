@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:title="Castle Math"
+        app:titleTextColor="@android:color/white" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
         android:orientation="vertical">
 
         <ImageView
@@ -19,9 +29,9 @@
             style="@style/Body2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
             android:text="@string/CastleMath"
             android:textColor="#000000" />
 
@@ -123,17 +133,29 @@
                     android:text=": Team of 2"
                     android:textStyle="bold" />
 
-                <TextView
-                    style="@style/Subtitle"
-                    android:layout_width="244dp"
+                <LinearLayout
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="16dp"
-                    android:text=": Dhruvil: 8850392965
-  Ramkrishna: 8291502816"
-                    android:textStyle="bold" />
+                    android:orientation="vertical">
 
+                    <TextView
+                        style="@style/Subtitle"
+                        android:layout_width="244dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="16dp"
+                        android:text=": Dhruvil: 8850392965"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        style="@style/Subtitle"
+                        android:layout_width="244dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="16dp"
+                        android:text="  Ramkrishna: 8291502816"
+                        android:textStyle="bold" />
+                </LinearLayout>
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>
