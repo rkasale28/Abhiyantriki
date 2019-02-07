@@ -16,14 +16,6 @@ public class Meme extends NavActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        FrameLayout frameLayout=(FrameLayout) findViewById(R.id.frame);
-
-        LayoutInflater inflater=(LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-
-        View activityView=inflater.inflate(R.layout.activity_meme,null,false);
-
-        frameLayout.addView(activityView);
-
-
+        setContentView(R.layout.activity_meme);
     }
 }

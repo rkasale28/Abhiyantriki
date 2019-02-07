@@ -32,15 +32,7 @@ public class ExposActivity extends NavActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        FrameLayout frameLayout=(FrameLayout) findViewById(R.id.frame);
-
-        LayoutInflater inflater=(LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-
-        View activityView=inflater.inflate(R.layout.activity_expos,null,false);
-
-        frameLayout.addView(activityView);
-
+        setContentView(R.layout.activity_expos);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -59,6 +51,6 @@ public class ExposActivity extends NavActivity {
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs2);
         tabLayout.setupWithViewPager(mViewPager);
 
-        }
+    }
 }
 

@@ -86,14 +86,7 @@ public class SponsorsActivity extends NavActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        FrameLayout frameLayout=(FrameLayout) findViewById(R.id.frame);
-
-        LayoutInflater inflater=(LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-
-        View activityView=inflater.inflate(R.layout.activity_sponsors,null,false);
-
-        frameLayout.addView(activityView);
-
+        setContentView(R.layout.activity_sponsors);
         //Attach adapter to Grid View
         gv = (ExpandableHeightGridView) findViewById(R.id.grid_view);
         gv.setExpanded(true);

@@ -26,6 +26,13 @@ public class NavActivity extends AppCompatActivity {
     }
 
     @Override
+    public void setContentView(int layoutResID) {
+        ViewStub viewStub=(ViewStub) findViewById(R.id.navdrawer_stub);
+        viewStub.setLayoutResource(layoutResID);
+        viewStub.inflate();
+    }
+
+    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         return abdt.onOptionsItemSelected(item) || super.onOptionsItemSelected(item);
     }
@@ -103,21 +110,6 @@ public class NavActivity extends AppCompatActivity {
                         intent = new Intent(NavActivity.this, GetInvolved.class);
                         startActivity(intent);
                         break;
-                }
-                dl.closeDrawer(GravityCompat.START);
-                return true;
-            }
-        });
-
-        final BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom);
-
-        //For handling click events of bottom navigation view
-        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
-            @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
-                int id = menuItem.getItemId();
-                Intent intent;
-                switch (id) {
                     case R.id.homeButton:
                         intent = new Intent(NavActivity.this, HomeActivity.class);
                         startActivity(intent);
@@ -135,6 +127,7 @@ public class NavActivity extends AppCompatActivity {
                         startActivity(intent);
                         break;
                 }
+                dl.closeDrawer(GravityCompat.START);
                 return true;
             }
         });

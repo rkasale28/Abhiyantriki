@@ -21,14 +21,7 @@ public class ParvaahActivity extends NavActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        FrameLayout frameLayout=(FrameLayout) findViewById(R.id.frame);
-
-        LayoutInflater inflater=(LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-
-        View activityView=inflater.inflate(R.layout.activity_parvaah,null,false);
-
-        frameLayout.addView(activityView);
-
+        setContentView(R.layout.activity_parvaah);
 
         myDialog = new Dialog(this);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);

@@ -2,7 +2,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
-   <item
+    <item
+        android:id="@+id/homeButton"
+        android:title="Home" />
+    <item
         android:id="@+id/events"
         android:title="Events" />
     <item
@@ -11,6 +14,12 @@
     <item
         android:id="@+id/speakers"
         android:title="Speakers" />
+    <item
+        android:id="@+id/map"
+        android:title="Map" />
+    <item
+        android:id="@+id/reach"
+        android:title="Reach Us" />
     <item
         android:id="@+id/register"
         android:title="Register" />
@@ -26,5 +35,7 @@
     <item
         android:id="@+id/AboutUs"
         android:title="About Council" />
-
+    <item
+        android:id="@+id/profile"
+        android:title="Profile" />
 </menu>

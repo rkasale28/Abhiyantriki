@@ -19,14 +19,7 @@ public class GetInvolved extends NavActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        FrameLayout frameLayout=(FrameLayout) findViewById(R.id.frame);
-
-        LayoutInflater inflater=(LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-
-        View activityView=inflater.inflate(R.layout.activity_get_involved,null,false);
-
-        frameLayout.addView(activityView);
-
+        setContentView(R.layout.activity_get_involved);
         TextView textView1 = (TextView) findViewById(R.id.nominate_exhibitor);
         textView1.setOnClickListener(new View.OnClickListener() {
             @Override
