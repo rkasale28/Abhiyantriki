@@ -34,7 +34,8 @@ public class HomeActivity extends NavActivity{
     @Override
     public void onBackPressed() {
         if (doubleBackToExitPressedOnce) {
-            super.onBackPressed();
+            finishAffinity();
+            System.exit(0);
             return;
         }
 
