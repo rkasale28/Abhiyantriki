@@ -80,6 +80,9 @@
         <activity
             android:name=".TPP"
             android:label="Technical Paper Presentation" />
+        <activity
+            android:name=".Technovate"
+            android:label="Technovate" />
     </application>
 
 </manifest>
