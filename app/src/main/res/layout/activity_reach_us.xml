@@ -1,141 +1,230 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".ReachUs"
     android:background="#FFF4F0">
+
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
+        app:layout_constraintTop_toTopOf="parent"
         app:popupTheme="@style/AppTheme.PopupOverlay"
         app:title="Reach Us"
-        app:titleTextColor="@android:color/white"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:titleTextColor="@android:color/white" />
 
-    <LinearLayout
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/toolbar">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFF4F0"
+            android:orientation="vertical"
+            tools:context=".ReachUs">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/back"
+                    android:padding="8dp"
+                    android:src="@drawable/maps" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="196dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:text="Address:"
+                        android:textAlignment="center"
+                        android:textAllCaps="true"
+                        android:textColor="#61003F"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:text="@string/address"
+                        android:textAlignment="center"
+                        android:textColor="#61003F"
+
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_margin="8dp"
+                android:background="#61003F"
+                android:padding="8dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Reach Us"
+                    android:textAllCaps="true"
+                    android:textColor="#61003F"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="KJSCE Students’ Council 18-19 "
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#61003F"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="kjsceabhiyantriki@somaiya.edu "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+
+                    android:textColor="#61003F" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Public Relations"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#61003F"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="Himanshu Kherde: 8087073287"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#61003F" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Marketing"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#61003F"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="Sakina Dasorwala: 9594085052"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#61003F" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <!-- For Home As Action Button-->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="43dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:clickable="true"
+        android:elevation="8dp"
+        app:fabSize="auto"
+        app:pressedTranslationZ="16dp"
+        app:rippleColor="@color/colorRipple"
+        app:srcCompat="@drawable/home"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
 
-        <ImageView
-            android:layout_width="180dp"
-            android:layout_height="180dp"
-            android:background="@drawable/back"
-            android:src="@drawable/maps"
-            android:layout_margin="8dp"
-            android:padding="8dp"/>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="196dp"
-            android:orientation="vertical">
-            <TextView
-                android:layout_height="wrap_content"
-                android:layout_width="match_parent"
-                android:text="Address:"
-                android:textAllCaps="true"
-                android:textColor="#61003F"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                android:layout_marginBottom="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginTop="8dp"
-                android:textAlignment="center"
-                />
-            <TextView
-                android:layout_height="wrap_content"
-                android:layout_width="wrap_content"
-                android:text="@string/address"
-                android:textColor="#61003F"
-                android:textSize="16sp"
-                android:layout_marginBottom="8dp"
-                android:layout_marginRight="8dp"
-
-                android:textAlignment="center"
-                />
-        </LinearLayout>
-
-    </LinearLayout>
-    <View
-        android:layout_width="fill_parent"
-        android:layout_height="2dp"
-        android:padding="8dp"
-        android:layout_margin="8dp"
-        android:background="#61003F"/>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:layout_margin="8dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
         android:padding="8dp"
-        >
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Reach Us"
-            android:textAllCaps="true"
-            android:textColor="#61003F"
-            android:textSize="28sp"
-            android:textStyle="bold"
-            />
-        <TextView
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="KJSCE Students’ Council 18-19 "
-            android:textColor="#61003F"
-            android:textStyle="bold"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            />
-        <TextView
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:text="kjsceabhiyantriki@somaiya.edu "
-            android:textColor="#61003F"
-            android:layout_marginBottom="8dp"
+        android:weightSum="12"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="#FFF4F0">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Follow us on:"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            />
-        <TextView
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="Public Relations"
-            android:textColor="#61003F"
-            android:textStyle="bold"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            />
-        <TextView
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:text="Himanshu Kherde: 8087073287"
-            android:textColor="#61003F"
-            android:layout_marginBottom="8dp"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            />
-        <TextView
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:text="Marketing"
-            android:textStyle="bold"
-            android:layout_marginTop="8dp"
-            android:textColor="#61003F"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            />
-        <TextView
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:text="Sakina Dasorwala: 9594085052"
-            android:layout_marginBottom="8dp"
-            android:textColor="#61003F"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            />
+            android:textColor="#61003F" />
 
+        <ImageView
+            android:id="@+id/facebook"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            app:srcCompat="@drawable/facebook" />
 
+        <ImageView
+            android:id="@+id/twitter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:src="@drawable/twitter" />
+
+        <ImageView
+            android:id="@+id/snapchat"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            app:srcCompat="@drawable/snapchat" />
+
+        <ImageView
+            android:id="@+id/instagram"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            app:srcCompat="@drawable/instagram" />
+
+        <ImageView
+            android:id="@+id/youtube"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            app:srcCompat="@drawable/youtube" />
+
+        <ImageView
+            android:id="@+id/wordpress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            app:srcCompat="@drawable/wordpress" />
     </LinearLayout>
-</LinearLayout>
+</android.support.constraint.ConstraintLayout>
