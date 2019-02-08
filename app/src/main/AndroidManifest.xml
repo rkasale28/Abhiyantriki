@@ -64,7 +64,7 @@
             android:label="CASTLE MATH" />
         <activity
             android:name=".MapActivity"
-            android:label="Maps" />
+            android:label="Map" />
         <activity
             android:name=".ReachUs"
             android:label="Reach Us" />
