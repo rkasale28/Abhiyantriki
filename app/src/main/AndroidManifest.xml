@@ -64,7 +64,7 @@
             android:label="CASTLE MATH" />
         <activity
             android:name=".MapActivity"
-            android:label="Maps" />
+            android:label="Map" />
         <activity
             android:name=".ReachUs"
             android:label="Reach Us" />
@@ -77,6 +77,12 @@
         <activity
             android:name=".PreEvents2"
             android:label="KJSCE Mumbai Open 2018" />
+        <activity
+            android:name=".TPP"
+            android:label="Technical Paper Presentation" />
+        <activity
+            android:name=".Technovate"
+            android:label="Technovate" />
     </application>
 
 </manifest>
