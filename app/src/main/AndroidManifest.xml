@@ -77,6 +77,9 @@
         <activity
             android:name=".PreEvents2"
             android:label="KJSCE Mumbai Open 2018" />
+        <activity
+            android:name=".TPP"
+            android:label="Technical Paper Presentation" />
     </application>
 
 </manifest>

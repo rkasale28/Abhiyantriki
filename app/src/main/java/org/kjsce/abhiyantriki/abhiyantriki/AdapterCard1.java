@@ -104,6 +104,11 @@ public class AdapterCard1 extends BaseAdapter {
                         startActivity(c, intent, null);
                         break;
 
+                    case "Technical Paper Presentation":
+                        intent = new Intent(c, TPP.class);
+                        startActivity(c, intent, null);
+                        break;
+
                     default:
                         Toast.makeText(c, modelCard1.ename, Toast.LENGTH_SHORT).show();
                 }
