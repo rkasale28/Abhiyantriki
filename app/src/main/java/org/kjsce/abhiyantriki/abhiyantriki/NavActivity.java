@@ -27,7 +27,7 @@ public class NavActivity extends AppCompatActivity {
 
     @Override
     public void setContentView(int layoutResID) {
-        ViewStub viewStub=(ViewStub) findViewById(R.id.navdrawer_stub);
+        ViewStub viewStub = (ViewStub) findViewById(R.id.navdrawer_stub);
         viewStub.setLayoutResource(layoutResID);
         viewStub.inflate();
     }
@@ -92,27 +92,17 @@ public class NavActivity extends AppCompatActivity {
                         intent = new Intent(NavActivity.this, SponsorsActivity.class);
                         startActivity(intent);
                         break;
-                    case R.id.register:
-                        String url = "https://docs.google.com/forms/d/e/1FAIpQLSfk4SzefjyG5sOUPwqYPplU5qzWq_J7D8YPtkvys4Vd2ZfgHw/closedform";
-                        intent = new Intent(Intent.ACTION_VIEW);
-                        intent.setData(Uri.parse(url));
-                        startActivity(intent);
-                        break;
 
                     case R.id.parvaah:
                         intent = new Intent(NavActivity.this, ParvaahActivity.class);
                         startActivity(intent);
                         break;
                     case R.id.AboutUs:
-                        intent = new Intent(NavActivity.this,AboutActivity.class);
+                        intent = new Intent(NavActivity.this, AboutActivity.class);
                         startActivity(intent);
                         break;
                     case R.id.get_involved:
                         intent = new Intent(NavActivity.this, GetInvolved.class);
-                        startActivity(intent);
-                        break;
-                    case R.id.homeButton:
-                        intent = new Intent(NavActivity.this, HomeActivity.class);
                         startActivity(intent);
                         break;
                     case R.id.map:

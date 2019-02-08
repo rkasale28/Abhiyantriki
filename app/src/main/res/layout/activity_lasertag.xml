@@ -126,5 +126,5 @@
 
 
     </LinearLayout>
-
+    <include layout="@layout/action_register"/>
 </android.support.constraint.ConstraintLayout>

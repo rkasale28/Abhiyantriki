@@ -141,5 +141,5 @@
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
-
+    <include layout="@layout/action_register"/>
 </RelativeLayout>
