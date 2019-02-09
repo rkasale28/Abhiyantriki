@@ -155,7 +155,45 @@ public class AdapterCard1 extends BaseAdapter {
                     case "Mr. Vilas Shinde":
                         showPopup(R.layout.popup_speaker2);
                         break;
-
+                    case "Kalam Sat":
+                        showPopup(R.layout.popup_tech1);
+                        break;
+                    case "Mini Humanoid Robot/Build My Project":
+                        showPopup(R.layout.popup_tech2);
+                        break;
+                    case "SP Robotics Maker Lab":
+                        showPopup(R.layout.popup_tech3);
+                        break;
+                    case "R2D2":
+                        showPopup(R.layout.popup_tech4);
+                        break;
+                    case "Netra Pro":
+                        showPopup(R.layout.popup_tech5);
+                        break;
+                    case "Sphero sprk+":
+                        showPopup(R.layout.popup_tech6);
+                        break;
+                    case "A1 Chek":
+                        showPopup(R.layout.popup_tech7);
+                        break;
+                    case "Touch B":
+                        showPopup(R.layout.popup_tech8);
+                        break;
+                    case "NKD-POD":
+                        showPopup(R.layout.popup_tech9);
+                        break;
+                    case "Neurosky Puzzlebox Orbit & EEG headsets":
+                        showPopup(R.layout.popup_tech10);
+                        break;
+                    case "Ugears":
+                        showPopup(R.layout.popup_tech11);
+                        break;
+                    case "Super Bikes":
+                        showPopup(R.layout.popup_auto1);
+                        break;
+                    case "Vintage Cars":
+                        showPopup(R.layout.popup_auto2);
+                        break;
                     default:
                         Toast.makeText(c, modelCard1.ename, Toast.LENGTH_SHORT).show();
                 }

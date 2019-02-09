@@ -29,7 +29,7 @@ public class FragmentTechExpo extends Fragment {
         cards.add(new ModelCard1(R.drawable.icon, "A1 Chek", ""));
         cards.add(new ModelCard1(R.drawable.icon, "Touch B", ""));
         cards.add(new ModelCard1(R.drawable.icon, "NKD-POD", ""));
-        cards.add(new ModelCard1(R.drawable.icon, "Neurosky Puzzlebox Orbit & egg headsets",
+        cards.add(new ModelCard1(R.drawable.icon, "Neurosky Puzzlebox Orbit & EEG headsets",
                 ""));
         cards.add(new ModelCard1(R.drawable.icon, "Ugears", ""));
         return cards;

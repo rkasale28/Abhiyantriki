@@ -6,9 +6,7 @@
     android:layout_height="wrap_content"
     android:background="@drawable/back"
     android:padding="8dp"
-    android:layout_gravity="center"
-    android:id="@+id/popup3"
-    android:minHeight="380dp">
+    android:layout_gravity="center">
     <TextView
         android:id="@+id/txtclose"
         android:layout_width="30dp"
