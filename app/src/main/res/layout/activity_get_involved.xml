@@ -12,7 +12,7 @@
         android:background="?attr/colorPrimary"
         app:popupTheme="@style/AppTheme.PopupOverlay"
         app:title="Get Involved"
-        app:titleTextColor="@android:color/white"/>
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
 
     <ScrollView
         xmlns:tools="http://schemas.android.com/tools"

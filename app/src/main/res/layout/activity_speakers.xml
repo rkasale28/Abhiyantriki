@@ -17,7 +17,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:popupTheme="@style/AppTheme.PopupOverlay"
             app:title="Speakers"
-            app:titleTextColor="@android:color/white" />
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
 
 
         <LinearLayout

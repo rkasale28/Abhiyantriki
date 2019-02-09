@@ -10,7 +10,7 @@
         android:background="?attr/colorPrimary"
         app:popupTheme="@style/AppTheme.PopupOverlay"
         app:title="My Profile"
-        app:titleTextColor="@android:color/white"/>
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
 
     <TextView
         android:layout_width="match_parent"

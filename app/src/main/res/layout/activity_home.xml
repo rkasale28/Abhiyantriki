@@ -12,7 +12,7 @@
         android:background="?attr/colorPrimary"
         app:popupTheme="@style/AppTheme.PopupOverlay"
         app:title="@string/app_name"
-        app:titleTextColor="@android:color/white" />
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
 
     <ScrollView
         android:layout_width="match_parent"

@@ -17,13 +17,23 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-public class Pubg extends NavActivity {
+public class Pubg extends AppCompatActivity {
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                super.onBackPressed();
+                return true;
+        }
+        return false;
+    }
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pubg);
 
-        FloatingActionButton floatingActionButton=(FloatingActionButton) findViewById(R.id.fab);
+        FloatingActionButton floatingActionButton = (FloatingActionButton) findViewById(R.id.fab);
         floatingActionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -32,11 +42,13 @@ public class Pubg extends NavActivity {
                 intent.setData(Uri.parse(url));
                 startActivity(intent);
 
-            }        });
+            }
+        });
 
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
     }
 }

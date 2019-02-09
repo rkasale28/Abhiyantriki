@@ -16,7 +16,17 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.FrameLayout;
 
-public class Meme extends NavActivity {
+public class Meme extends AppCompatActivity {
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                super.onBackPressed();
+                return true;
+        }
+        return false;
+    }
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,6 +45,6 @@ public class Meme extends NavActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }
