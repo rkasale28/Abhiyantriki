@@ -89,6 +89,9 @@
         <activity
             android:name=".Techhunt"
             android:label="Tech Hunt" />
+        <activity
+            android:name=".ZEB"
+            android:label="Zero Energy Building" />
     </application>
 
 </manifest>

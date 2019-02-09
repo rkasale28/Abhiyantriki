@@ -124,6 +124,11 @@ public class AdapterCard1 extends BaseAdapter {
                         startActivity(c, intent, null);
                         break;
 
+                    case "Zero Energy Building":
+                        intent = new Intent(c, ZEB.class);
+                        startActivity(c, intent, null);
+                        break;
+
                     default:
                         Toast.makeText(c, modelCard1.ename, Toast.LENGTH_SHORT).show();
                 }
