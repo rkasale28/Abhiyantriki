@@ -114,6 +114,11 @@ public class AdapterCard1 extends BaseAdapter {
                         startActivity(c, intent, null);
                         break;
 
+                    case "Tech Quiz":
+                        intent = new Intent(c, Techquiz.class);
+                        startActivity(c, intent, null);
+                        break;
+
                     default:
                         Toast.makeText(c, modelCard1.ename, Toast.LENGTH_SHORT).show();
                 }

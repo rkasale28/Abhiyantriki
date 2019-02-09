@@ -83,6 +83,9 @@
         <activity
             android:name=".Technovate"
             android:label="Technovate" />
+        <activity
+            android:name=".Techquiz"
+            android:label="Tech Quiz" />
     </application>
 
 </manifest>
