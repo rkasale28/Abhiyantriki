@@ -105,8 +105,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="16dp"
-                    android:text=": Click here(onClick)"
-                    android:textStyle="bold" />
+                    android:text=": Click here"
+                    android:textStyle="bold"
+                    android:id="@+id/knowMore"/>
 
 
                 <TextView

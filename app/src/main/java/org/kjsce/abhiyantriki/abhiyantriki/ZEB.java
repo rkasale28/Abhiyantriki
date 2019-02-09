@@ -17,7 +17,17 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-public class ZEB extends NavActivity {
+public class ZEB extends AppCompatActivity {
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()){
+            case android.R.id.home:
+                super.onBackPressed();
+                return true;
+        }
+        return false;
+    }
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,9 +44,19 @@ public class ZEB extends NavActivity {
 
             }        });
 
+        TextView textView=(TextView) findViewById(R.id.knowMore);
+        textView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String url = "https://drive.google.com/file/d/1qyzINLzGX4QOia4etRIxLk1O3t3G9NZm/view";
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse(url));
+                startActivity(intent);
+            }
+        });
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }
