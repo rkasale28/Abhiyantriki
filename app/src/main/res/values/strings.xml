@@ -176,4 +176,24 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
 
+    <!-- For Speakers Activity  -->
+    <string name="speaker1">Dr. S. Christopher is the former Chairman of DRDO (Defence Research and
+        Development Organisation). He is largely credited for pioneering India\'s first indigenous
+        AEW&amp;C (airborne early warning and control) system. Mr. Christopher obtained his BE (Hons)
+        in Electronics &amp; Communication Engineering from University of Madras and M.Tech in Microwaves
+        and Radar Engineering from IIT, Kharagpur. He joined IIT Madras, as Project Associate in 1980,
+        and carried out research in Microwave Antenna Design and Near-field Measurement Techniques.
+        He then obtained PhD in Antennae and Measurement Techniques from IIT, Madras. In the past,
+        he has been the recipient of Best Defence Research and Development Organisation - Outstanding
+        Scientist for 2012 award.</string>
+    <string name="speaker2">Vilas Shinde is official spokesperson of Mumbai’s dabbawalas, the city’s
+        famed tiffin delivery service. Started in 1890 by Mahadeo Havaji Bachche, the service has grown
+        exponentially over the years. It started with a fleet of around a hundred men and has now become
+        a full-fledged corporation. The dabbawalas operate with laser precision, misplacing the tiffins
+        is a myth for them. They employ public transport like local trains and bicycles for deliveries
+        and practise rigid adherence to a schedule. The system that they employ to keep a track of over
+        2,00,000 lunch-boxes that are ferried every day is still a mystery to many. Mr. Shinde will
+        step-by-step decode the clandestine ways of the dabbawalas and introduce you to the exciting
+        world of this ingenious workforce!</string>
+
 </resources>

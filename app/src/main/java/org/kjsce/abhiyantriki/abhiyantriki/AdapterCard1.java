@@ -1,7 +1,10 @@
 package org.kjsce.abhiyantriki.abhiyantriki;
 
+import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -37,6 +40,22 @@ public class AdapterCard1 extends BaseAdapter {
     @Override
     public long getItemId(int position) {
         return position;
+    }
+
+    //For popups in Expos And Speakers Activity
+    void showPopup(int layoutResId) {
+        final Dialog myDialog;
+        myDialog = new Dialog(c);
+        myDialog.setContentView(layoutResId);
+        TextView txtclose = (TextView) myDialog.findViewById(R.id.txtclose);
+        txtclose.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                myDialog.dismiss();
+            }
+        });
+        myDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+        myDialog.show();
     }
 
     @Override
@@ -127,6 +146,14 @@ public class AdapterCard1 extends BaseAdapter {
                     case "Zero Energy Building":
                         intent = new Intent(c, ZEB.class);
                         startActivity(c, intent, null);
+                        break;
+
+                    case "Dr. S. Christopher":
+                        showPopup(R.layout.popup_speaker1);
+                        break;
+
+                    case "Mr. Vilas Shinde":
+                        showPopup(R.layout.popup_speaker2);
                         break;
 
                     default:
