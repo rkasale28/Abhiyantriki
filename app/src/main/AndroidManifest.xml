@@ -86,6 +86,9 @@
         <activity
             android:name=".Techquiz"
             android:label="Tech Quiz" />
+        <activity
+            android:name=".Techhunt"
+            android:label="Tech Hunt" />
     </application>
 
 </manifest>
