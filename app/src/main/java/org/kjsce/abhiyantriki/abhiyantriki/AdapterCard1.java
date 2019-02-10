@@ -148,6 +148,16 @@ public class AdapterCard1 extends BaseAdapter {
                         startActivity(c, intent, null);
                         break;
 
+                    case "Defeating The Mishaps":
+                        intent = new Intent(c, Ideate.class);
+                        startActivity(c, intent, null);
+                        break;
+
+                    case "Reversing Global Warming":
+                        intent = new Intent(c, Ideate2.class);
+                        startActivity(c, intent, null);
+                        break;
+
                     case "Dr. S. Christopher":
                         showPopup(R.layout.popup_speaker1);
                         break;

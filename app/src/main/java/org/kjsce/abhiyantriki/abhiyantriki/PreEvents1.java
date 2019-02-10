@@ -12,8 +12,9 @@ import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.FrameLayout;
+import android.widget.TextView;
 
-public class PreEvents1 extends AppCompatActivity{
+public class PreEvents1 extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
@@ -29,7 +30,7 @@ public class PreEvents1 extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pre_event1);
 
-        FloatingActionButton floatingActionButton=(FloatingActionButton) findViewById(R.id.fab);
+        FloatingActionButton floatingActionButton = (FloatingActionButton) findViewById(R.id.fab);
         floatingActionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -38,11 +39,22 @@ public class PreEvents1 extends AppCompatActivity{
                 intent.setData(Uri.parse(url));
                 startActivity(intent);
 
-            }        });
+            }
+        });
+        TextView textView = (TextView) findViewById(R.id.knowMore);
+        textView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String url = "https://drive.google.com/file/d/1tNobZcHVoF6jWLWGd1dIscYesRuH2wiu/view";
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse(url));
+                startActivity(intent);
+            }
+        });
 
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

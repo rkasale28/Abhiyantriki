@@ -92,6 +92,12 @@
         <activity
             android:name=".ZEB"
             android:label="Zero Energy Building" />
+        <activity
+            android:name=".Ideate"
+            android:label="Defeating The Mishaps" />
+        <activity
+            android:name=".Ideate2"
+            android:label="Reversing Global Warming" />
     </application>
 
 </manifest>
