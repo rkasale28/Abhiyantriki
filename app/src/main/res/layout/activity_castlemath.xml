@@ -9,9 +9,9 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:popupTheme="@style/AppTheme.PopupOverlay"
-        app:title="Castle Math"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+        app:title="Castle Math" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -29,9 +29,9 @@
             style="@style/Body2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:layout_marginBottom="16dp"
             android:text="@string/CastleMath"
             android:textColor="#000000" />
 
@@ -52,13 +52,6 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <TextView
-                    style="@style/Subtitle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="16dp"
-                    android:text="To know more"
-                    android:textStyle="bold" />
 
                 <TextView
                     style="@style/Subtitle"
@@ -90,8 +83,17 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="16dp"
+                    android:text="To Know More"
+                    android:textStyle="bold" />
+
+                <TextView
+                    style="@style/Subtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16dp"
                     android:text="Contact"
                     android:textStyle="bold" />
+
 
             </LinearLayout>
 
@@ -99,15 +101,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-
-                <TextView
-                    style="@style/Subtitle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="16dp"
-                    android:text=": Click here"
-                    android:textStyle="bold"
-                    android:id="@+id/knowMore"/>
 
 
                 <TextView
@@ -134,6 +127,15 @@
                     android:text=": Team of 2"
                     android:textStyle="bold" />
 
+                <TextView
+                    android:id="@+id/knowMore"
+                    style="@style/Subtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16dp"
+                    android:text=": Click here"
+                    android:textStyle="bold" />
+
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -158,5 +160,6 @@
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
-    <include layout="@layout/action_register"/>
+
+    <include layout="@layout/action_register" />
 </RelativeLayout>
