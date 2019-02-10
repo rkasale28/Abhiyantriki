@@ -122,46 +122,37 @@ public class AdapterCard1 extends BaseAdapter {
                         intent = new Intent(c, PreEvents2.class);
                         startActivity(c, intent, null);
                         break;
-
                     case "Technical Paper Presentation":
                         intent = new Intent(c, TPP.class);
                         startActivity(c, intent, null);
                         break;
-
                     case "Technovate":
                         intent = new Intent(c, Technovate.class);
                         startActivity(c, intent, null);
                         break;
-
                     case "Tech Quiz":
                         intent = new Intent(c, Techquiz.class);
                         startActivity(c, intent, null);
                         break;
-
                     case "Tech Hunt":
                         intent = new Intent(c, Techhunt.class);
                         startActivity(c, intent, null);
                         break;
-
                     case "Zero Energy Building":
                         intent = new Intent(c, ZEB.class);
                         startActivity(c, intent, null);
                         break;
-
                     case "Defeating The Mishaps":
                         intent = new Intent(c, Ideate.class);
                         startActivity(c, intent, null);
                         break;
-
                     case "Reversing Global Warming":
                         intent = new Intent(c, Ideate2.class);
                         startActivity(c, intent, null);
                         break;
-
                     case "Dr. S. Christopher":
                         showPopup(R.layout.popup_speaker1);
                         break;
-
                     case "Mr. Vilas Shinde":
                         showPopup(R.layout.popup_speaker2);
                         break;
