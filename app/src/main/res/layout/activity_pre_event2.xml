@@ -3,21 +3,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:popupTheme="@style/AppTheme.PopupOverlay"
-        app:title="KJSCE Mumbai Open 2018"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+        app:title="KJSCE Mumbai Open 2018" />
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_below="@id/toolbar">
+        android:layout_below="@id/toolbar"
+        android:orientation="vertical">
 
         <ImageView
             android:layout_width="match_parent"
@@ -29,9 +30,9 @@
             style="@style/Body2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:layout_marginBottom="16dp"
             android:text="@string/kjscemumbai"
             android:textColor="#000000" />
 
@@ -100,29 +101,33 @@
                     android:layout_marginRight="16dp"
                     android:text=": 23:59, 2nd Oct, '18"
                     android:textStyle="bold" />
-<LinearLayout
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:orientation="vertical">
-    <TextView
-        style="@style/Subtitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="16dp"
-        android:text=": Vansh : 123456789"
-        android:textStyle="bold" />
-    <TextView
-        style="@style/Subtitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="16dp"
-        android:text="  Arsh     :123456789"
-        android:textStyle="bold" />
 
-</LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/Subtitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="16dp"
+                        android:text=": Soham : 8452029981"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        style="@style/Subtitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="16dp"
+                        android:text="  Sharan : 9029294416"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
 
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
-    <include layout="@layout/action_register"/>
+
+    <include layout="@layout/action_register" />
 </RelativeLayout>
