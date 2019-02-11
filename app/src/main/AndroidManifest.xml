@@ -13,7 +13,6 @@
             android:name=".HomeActivity"
             android:label="Abhiyantriki"
             android:screenOrientation="portrait">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -98,6 +97,8 @@
         <activity
             android:name=".Ideate2"
             android:label="Reversing Global Warming" />
+        <activity android:name=".AnimationScreen1" />
+        <activity android:name=".AnimationScreen2"></activity>
     </application>
 
 </manifest>
