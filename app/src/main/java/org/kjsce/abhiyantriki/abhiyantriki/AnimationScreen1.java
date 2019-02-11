@@ -13,7 +13,7 @@ import android.view.WindowManager;
 public class AnimationScreen1 extends AppCompatActivity {
 
 
-    private static int TIME_OUT = 850; //Time to launch the another activity
+    private static int TIME_OUT = 300; //Time to launch the another activity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
