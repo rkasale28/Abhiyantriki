@@ -129,6 +129,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="8dp"
                     android:text="Himanshu Kherde: 8087073287"
+                    android:id="@+id/contactHimanshu"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:textColor="#61003F" />
 
@@ -145,6 +146,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="8dp"
+                    android:id="@+id/contactSakina"
                     android:text="Sakina Dasorwala: 9594085052"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:textColor="#61003F" />

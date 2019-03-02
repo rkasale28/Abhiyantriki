@@ -22,6 +22,25 @@ Intent intent;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reach_us);
 
+        TextView textView1 = (TextView) findViewById(R.id.contactHimanshu);
+        textView1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_DIAL);
+                intent.setData(Uri.parse("tel:8087073287"));
+                startActivity(intent);
+            }
+        });
+
+        TextView textView2 = (TextView) findViewById(R.id.contactSakina);
+        textView2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_DIAL);
+                intent.setData(Uri.parse("tel:9594085052"));
+                startActivity(intent);
+            }
+        });
 
         ImageView imageView1 = (ImageView) findViewById(R.id.mapsforindent);
         imageView1.setOnClickListener(new View.OnClickListener() {
