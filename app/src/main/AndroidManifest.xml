@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.kjsce.abhiyantriki.abhiyantriki">
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -10,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
         <activity
-            android:name=".HomeActivity"
+            android:name=".AnimationScreen1"
             android:label="Abhiyantriki"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -97,8 +98,9 @@
         <activity
             android:name=".Ideate2"
             android:label="Reversing Global Warming" />
-        <activity android:name=".AnimationScreen1" />
-        <activity android:name=".AnimationScreen2"></activity>
+        <activity android:name=".AnimationScreen2"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".HomeActivity" android:label="Abhiyantriki"></activity>
     </application>
 
 </manifest>

@@ -1,11 +1,9 @@
 package org.kjsce.abhiyantriki.abhiyantriki;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.content.Intent;
+import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
@@ -23,13 +21,13 @@ public class AnimationScreen1 extends AppCompatActivity {
         setContentView(R.layout.activity_animation_screen1);
         final View myLayout = findViewById(R.id.startabhi);
         new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
+            @Override            public void run() {
                 Intent i = new Intent(AnimationScreen1.this, AnimationScreen2.class);
                 startActivity(i);
                 finish();
             }
         }, TIME_OUT);
     }
+
 
 }

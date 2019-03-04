@@ -35,8 +35,8 @@
                           <map>
                             <entry key="assetSourceType" value="FILE" />
                             <entry key="color" value="ffffff" />
-                            <entry key="outputName" value="twitter" />
-                            <entry key="sourceFile" value="C:\Users\Rohit\Downloads\app\icons8-twitter.svg" />
+                            <entry key="outputName" value="ic_signout" />
+                            <entry key="sourceFile" value="C:\Users\Jash\Desktop\signout.svg" />
                           </map>
                         </option>
                       </PersistentState>
