@@ -18,20 +18,8 @@
         android:orientation="vertical">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="360dp"></LinearLayout>
+            android:layout_height="370dp"></LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <TextView
-                android:id="@+id/status"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/signed_out"
-                android:textColor="#61003F"
-                android:textAlignment="center"
-                android:textSize="24sp" />
-        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -49,69 +37,7 @@
                 />
         </LinearLayout>
 
-        <LinearLayout
-            android:id="@+id/sign_out_and_disconnect"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:orientation="horizontal"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp"
-            android:layout_marginTop="6dp"
-            android:visibility="gone">
-
-
-            <Button
-                android:id="@+id/disconnect_button"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/disconnect"
-                android:textAllCaps="true"
-                android:textColor="@color/white"
-                android:background="#61003F" />
-        </LinearLayout>
-    </LinearLayout>
-
-    <!--other things_-->
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:id="@+id/main_layout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:weightSum="4"
-
-        tools:context=".SignInActivity">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="3"
-            android:gravity="center_horizontal"
-            android:orientation="vertical">
-
-
-
-            <TextView
-                android:id="@+id/title_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:layout_marginTop="20dp"
-                android:text="@string/title_text"
-                android:gravity="center"
-                android:textColor="#61003F"
-                android:textSize="32sp" />
-
-
-
-
-
-
-
-        </LinearLayout>
-
 
     </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>
