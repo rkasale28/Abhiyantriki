@@ -12,7 +12,7 @@
         android:theme="@style/AppTheme.NoActionBar">
         <activity
             android:label="Abhiyantriki"
-            android:name=".HomeActivity"
+            android:name=".AnimationScreen1"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -100,7 +100,7 @@
             android:label="Reversing Global Warming" />
         <activity android:name=".AnimationScreen2"
             android:theme="@style/AppTheme"/>
-        <activity  android:name=".AnimationScreen1"
+        <activity        android:name=".HomeActivity"
             android:label="Abhiyantriki"></activity>
     </application>
 

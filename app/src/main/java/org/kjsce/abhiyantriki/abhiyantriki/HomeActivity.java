@@ -1,10 +1,13 @@
 package org.kjsce.abhiyantriki.abhiyantriki;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.annotation.NonNull;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.widget.Toolbar;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
 
@@ -23,7 +26,7 @@ public class HomeActivity extends NavActivity{
     @Override
     protected void onStart() {
         super.onStart();
-        //mAuth.addAuthStateListener(mAuthListener);
+        mAuth.addAuthStateListener(mAuthListener);
     }
 
 
@@ -76,24 +79,24 @@ public class HomeActivity extends NavActivity{
         tabLayout=(TabLayout) findViewById(R.id.indicator);
         tabLayout.setupWithViewPager(viewPager);
         imageView=(ImageView)findViewById(R.id.toAnimationPage);
-//        mAuth=FirebaseAuth.getInstance();
-//        mAuthListener= new FirebaseAuth.AuthStateListener()
-//        {
-//            @Override
-//            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth)
-//            {
-//                if(firebaseAuth.getCurrentUser()==null)
-//                {
-//                    startActivity(new Intent(HomeActivity.this,AnimationScreen2.class));
-//                }
-//            }
-//        };
-//        imageView.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                mAuth.signOut();
-//            }
-//        });
+        mAuth=FirebaseAuth.getInstance();
+        mAuthListener= new FirebaseAuth.AuthStateListener()
+        {
+            @Override
+            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth)
+            {
+                if(firebaseAuth.getCurrentUser()==null)
+                {
+                    startActivity(new Intent(HomeActivity.this,AnimationScreen2.class));
+                }
+            }
+        };
+        imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mAuth.signOut();
+            }
+        });
 
 
 
