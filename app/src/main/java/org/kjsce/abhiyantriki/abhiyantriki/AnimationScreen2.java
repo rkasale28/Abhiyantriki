@@ -116,14 +116,13 @@ public class AnimationScreen2 extends AppCompatActivity{
                 firebaseAuthWithGoogle(account);
 
             }
-            else
-                {
-                    Toast.makeText(AnimationScreen2.this,"Authentication Went Wrong",Toast.LENGTH_SHORT).show();
+            else {
+                Toast.makeText(AnimationScreen2.this, "Authentication Went Wrong", Toast.LENGTH_SHORT).show();
 
-                }
+            }
         }
     }
-
+    
     private void firebaseAuthWithGoogle(GoogleSignInAccount account) {
         AuthCredential credential = GoogleAuthProvider.getCredential(account.getIdToken(), null);
         mAuth.signInWithCredential(credential)
