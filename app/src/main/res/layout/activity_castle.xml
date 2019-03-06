@@ -10,7 +10,7 @@
         android:layout_height="?android:attr/actionBarSize"
         android:background="@color/colorPrimary"
         app:popupTheme="@style/AppTheme.PopupOverlay"
-        app:title="Hackathon"
+        app:title="TECH-ESHI’S Castle"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
 
     <LinearLayout
@@ -32,7 +32,7 @@
             android:layout_marginBottom="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:text="@string/hackathon"
+            android:text="@string/TECHESHISCASTLE"
             android:textColor="#000000" />
 
         <View
@@ -96,7 +96,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="16dp"
-                    android:text=": ₹ 50000"
+                    android:text=": ₹ 8000"
                     android:textStyle="bold" />
 
                 <TextView
@@ -104,7 +104,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="16dp"
-                    android:text=": Free"
+                    android:text=": ₹ 100"
                     android:textStyle="bold" />
 
                 <TextView
@@ -112,7 +112,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="16dp"
-                    android:text=": Team of 4"
+                    android:text=": Team of 2"
                     android:textStyle="bold" />
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -123,7 +123,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="16dp"
-                        android:text=": Chirag: 7045185177"
+                        android:text=": Shashank: 9757408180"
                         android:textStyle="bold" />
 
                     <TextView
@@ -131,7 +131,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="16dp"
-                        android:text=": Nishchith: 9820501130"
+                        android:text=": Heer: 9004730131"
                         android:textStyle="bold" />
                 </LinearLayout>
 

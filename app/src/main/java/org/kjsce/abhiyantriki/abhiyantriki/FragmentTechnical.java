@@ -25,7 +25,7 @@ public class FragmentTechnical extends Fragment {
         cards.add(new ModelCard1(R.drawable.icon, "Keyword Rush", "Codecell"));
         cards.add(new ModelCard1(R.drawable.icon, "CAD Clash", "MESA"));
         cards.add(new ModelCard1(R.drawable.icon, "Chain Reaction", "MESA"));
-        cards.add(new ModelCard1(R.drawable.icon, "A-Maze Possible", "IEEE"));
+        cards.add(new ModelCard1(R.drawable.icon, "A-Maze Impossible", "IEEE"));
         cards.add(new ModelCard1(R.drawable.icon, "Escape the Labyrinth", "ISTE"));
         cards.add(new ModelCard1(R.drawable.icon, "Circuit Frenzy", "EESA"));
         cards.add(new ModelCard1(R.drawable.icon, "Follow the Flare", "EESA"));

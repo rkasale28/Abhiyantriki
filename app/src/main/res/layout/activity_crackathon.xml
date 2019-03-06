@@ -12,7 +12,7 @@
         android:background="@color/colorPrimary"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:popupTheme="@style/AppTheme.PopupOverlay"
-        app:title="CRACKATHON" />
+        app:title="Crackathon" />
 
     <LinearLayout
         android:layout_width="match_parent"
