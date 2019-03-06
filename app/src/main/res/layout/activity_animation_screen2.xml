@@ -9,35 +9,25 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/animationimage2"
         android:scaleType="centerCrop"
-        />
+        android:src="@drawable/anim2" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="370dp"></LinearLayout>
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="445dp">
 
 
-        <LinearLayout
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/sign_in_button"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:padding="0dp"
-            android:layout_margin="0dp">
-            <com.google.android.gms.common.SignInButton
-                android:id="@+id/sign_in_button"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:padding="0dp"
-                android:layout_marginTop="10dp"
-                android:layout_margin="0dp"
-                android:visibility="visible"
-                />
-        </LinearLayout>
-
-
+            android:layout_alignParentBottom="true"
+            android:visibility="visible" />
     </LinearLayout>
+
 
 </android.support.constraint.ConstraintLayout>
