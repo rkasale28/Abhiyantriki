@@ -86,6 +86,14 @@ public class AdapterCard1 extends BaseAdapter {
             public void onClick(View v) {
                 //Later use images
                 switch (modelCard1.getEname()) {
+                    case "HACKATHON":
+                        intent = new Intent(c, Hackathon.class);
+                        startActivity(c, intent, null);
+                        break;
+                    case "CRACKATHON":
+                        intent = new Intent(c, Crackathon.class);
+                        startActivity(c, intent, null);
+                        break;
                     case "PUBG Mobile":
                         intent = new Intent(c, Pubg.class);
                         startActivity(c, intent, null);

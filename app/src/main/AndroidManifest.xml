@@ -43,6 +43,13 @@
             android:name=".Pubg"
             android:label="PUBG MOBILE" />
         <activity
+            android:name=".Hackathon"
+            android:label="HACKATHON" />
+        <activity
+            android:name=".Crackathon"
+            android:label="CRACKATHON" />
+
+        <activity
             android:name=".Laser"
             android:label="LASER TAG" />
         <activity
