@@ -37,9 +37,6 @@
             android:name=".ParvaahActivity"
             android:label="Parvaah" />
         <activity
-            android:name=".AboutActivity"
-            android:label="About the Council" />
-        <activity
             android:name=".GetInvolved"
             android:label="Get Involved" />
         <activity
@@ -63,9 +60,6 @@
         <activity
             android:name=".CastleMath"
             android:label="CASTLE MATH" />
-        <activity
-            android:name=".MapActivity"
-            android:label="Map" />
         <activity
             android:name=".ReachUs"
             android:label="Reach Us" />

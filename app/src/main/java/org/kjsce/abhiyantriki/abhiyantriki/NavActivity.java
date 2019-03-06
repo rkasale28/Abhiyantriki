@@ -97,18 +97,12 @@ public class NavActivity extends AppCompatActivity {
                         intent = new Intent(NavActivity.this, ParvaahActivity.class);
                         startActivity(intent);
                         break;
-                    case R.id.AboutUs:
-                        intent = new Intent(NavActivity.this, AboutActivity.class);
-                        startActivity(intent);
-                        break;
+
                     case R.id.get_involved:
                         intent = new Intent(NavActivity.this, GetInvolved.class);
                         startActivity(intent);
                         break;
-                    case R.id.map:
-                        intent = new Intent(NavActivity.this, MapActivity.class);
-                        startActivity(intent);
-                        break;
+
                     case R.id.reach:
                         intent = new Intent(NavActivity.this, ReachUs.class);
                         startActivity(intent);
