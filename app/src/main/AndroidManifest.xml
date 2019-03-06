@@ -11,8 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
         <activity
+            android:name=".AnimationScreen1"
+
             android:label="Abhiyantriki"
-            android:name=".HomeActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -101,7 +102,8 @@
         <activity android:name=".AnimationScreen2"
             android:theme="@style/AppTheme"/>
         <activity
-            android:name=".AnimationScreen1"
+            android:name=".HomeActivity"
+
             android:label="Abhiyantriki"></activity>
     </application>
 
