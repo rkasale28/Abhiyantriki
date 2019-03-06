@@ -1,17 +1,11 @@
 package org.kjsce.abhiyantriki.abhiyantriki;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.annotation.NonNull;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
-import android.widget.ImageView;
 import android.widget.Toast;
-
-import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.ArrayList;
 
@@ -19,14 +13,10 @@ public class HomeActivity extends NavActivity{
     AdapterFlagship flagship;
     ViewPager viewPager;
     TabLayout tabLayout;
-    ImageView imageView;
-    FirebaseAuth mAuth;
-    FirebaseAuth.AuthStateListener mAuthListener;
 
     @Override
     protected void onStart() {
         super.onStart();
-        mAuth.addAuthStateListener(mAuthListener);
     }
 
 
@@ -78,27 +68,6 @@ public class HomeActivity extends NavActivity{
         //For adding CirclePageIndicator at bottom images in slider
         tabLayout=(TabLayout) findViewById(R.id.indicator);
         tabLayout.setupWithViewPager(viewPager);
-        imageView=(ImageView)findViewById(R.id.toAnimationPage);
-        mAuth=FirebaseAuth.getInstance();
-        mAuthListener= new FirebaseAuth.AuthStateListener()
-        {
-            @Override
-            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth)
-            {
-                if(firebaseAuth.getCurrentUser()==null)
-                {
-                    startActivity(new Intent(HomeActivity.this,AnimationScreen2.class));
-                }
-            }
-        };
-        imageView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mAuth.signOut();
-            }
-        });
-
-
 
     }
 

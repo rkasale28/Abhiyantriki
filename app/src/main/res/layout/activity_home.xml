@@ -14,18 +14,6 @@
         app:popupTheme="@style/AppTheme.PopupOverlay"
         app:title="@string/app_name">
 
-        <RelativeLayout
-            android:layout_width="120dp"
-            android:layout_height="wrap_content">
-
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="match_parent"
-                android:gravity="end"
-                android:layout_alignParentEnd="true"
-                android:id="@+id/toAnimationPage"
-                app:srcCompat="@drawable/ic_signout" />
-        </RelativeLayout>
     </android.support.v7.widget.Toolbar>
 
     <ScrollView

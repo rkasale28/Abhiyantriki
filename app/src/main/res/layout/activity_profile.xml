@@ -23,19 +23,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:background="#61003F">
+            android:background="#ffffff">
 
-            <TextView
+            <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="153dp"
                 android:layout_marginTop="10dp"
                 android:paddingTop="10dp"
-                android:text="@string/signed_in_fmt1"
-                android:textAlignment="center"
-                android:textAllCaps="true"
-                android:textColor="#ffffff"
-                android:textSize="32sp"
-                android:textStyle="bold" />
+                android:src="@drawable/logo"
+
+
+                 />
         </LinearLayout>
 
         <LinearLayout
@@ -57,7 +55,7 @@
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textColor="#61003F"
-                android:textSize="32sp"
+                android:textSize="22sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -66,7 +64,7 @@
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
                 android:textColor="#61003F"
-                android:textSize="24sp" />
+                android:textSize="18sp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -76,7 +74,7 @@
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textColor="#61003F"
-                android:textSize="32sp"
+                android:textSize="22sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -85,10 +83,25 @@
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
                 android:textColor="#61003F"
-                android:textSize="24sp"
+                android:textSize="18sp"
                 tools:layout_marginBottom="20dp"
                 tools:paddingBottom="20dp" />
         </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#ffffff"
+            >
+            <Button
+                android:id="@+id/toAnimationPage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#61003F"
+                android:text="LOGOUT"
+                android:textAllCaps="true"
+                android:textColor="#fff"/>
+
+
+        </LinearLayout>>
     </LinearLayout>
     <include layout="@layout/action_home"/>
 
