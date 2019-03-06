@@ -95,6 +95,49 @@
         conditioning, etc.) to reverse the global warming.</string>
 
 
+    <!--For Technical Fragment-->
+    <string name="hackathon">A Hackathon is a two day long code intensive competition which deals
+        with real life problem statements and the team must focus on creating innovative solutions
+        to these problems. The hackathon is easily the most eagerly waited for event in all of
+        Abhiyantriki and is going to be a banger this year as well!</string>
+    <string name="crackathon">A day long challenge at the crux of Abhiyantriki, deals with intensive
+        coding and logic. An event based on three rounds with increasing complexity, this will be a
+        sure shot event to boggle your brains and wobble your mind!</string>
+    <string name="codecrux">This three-legged event presented by CSI will test the best of your
+        coding skills, right from the logic and the intense algorithm involved, to your endurance and
+        stamina. Get ready for your mind to be boggled with fanatical twists in every successive
+        round. Starting off with blank screen coding and moving on to a technical treasure hunt the
+        event ends with a bang, bringing on the surprise element of an unknown third challenge.</string>
+    <string name="codeinx">For all the code linguists out there, in this two part challenge you will
+        be introduced with an entirely new coding language created from scratch. Make your way through
+        the initial challenge and then move onto the auction round which spices up this competition.</string>
+    <string name="keywordrush">Similar to the board set-up of ‘Connect 4,’ you have to create as
+        many keywords from C, C++ and Java based on the blocks provided to you. The orientation
+        of the keyword can be either horizontal, vertical or diagonal.</string>
+    <string name="cadclash">Create the most intricate and interesting 3-D model using the AutoCad
+        software along with adding your own touch to the problem statements at hand. With this
+        being a team competition, the best cad model bags the prize!</string>
+    <string name="chainreaction">Based on the Goldberg Mechanism, this event tests your judgement
+        skills so that you make sure that the event ball falls down at the end with a chain reaction
+        induced by multiple objects.</string>
+    <string name="amazeimpossible">To all robot fanatics out there, guide your own bot through a
+        maze with the twist being that the only way you can have any visual communication is through
+        a camera fitted onto it. Face all the obstacles and become the champion of this tournament!</string>
+    <string name="ESCAPETHELABYRINTH">Using a smartphone/ remote, the participant has to control a
+        bot inside a labyrinth filled with the unknown​. The only way you can make sense of the inside
+        is through a live stream. Do you have what it takes to face the terrors that lie inside?</string>
+    <string name="circuitfrenzy">In a game that will have you racking your mind palace, memorize a
+        circuit diagram in a minute and successfully recreate it with a swap of team members in
+        between.</string>
+    <string name="followtheflare">Creating an Arduino programmed bot that follows the light, you’ll
+        have to guide your creation through the safety of the illuminated path. A two part challenge,
+        the creatures in the shadow keep on getting darker and terrifying the further you move
+        inside.</string>
+    <string name="TECHESHISCASTLE">In a three phase competitions starting off with a Tech Quiz to
+        challenge your inner genius, the subsequent circuit debugging round will judge your
+        implementation skills. The final showdown will then decide the real winner. Do you have what
+        it takes to devour your opponents?</string>
+
     <!-- For Ideate Fragment-->
     <string name="ideate">Ideate is one of the very core events of Abhiyantriki where participants
         from various colleges bring out the best of ideas focusing on a problem statement to engineer

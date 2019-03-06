@@ -43,6 +43,45 @@
             android:name=".Pubg"
             android:label="PUBG MOBILE" />
         <activity
+            android:name=".Hackathon"
+            android:label="Hackathon" />
+        <activity
+            android:name=".Crackathon"
+            android:label="Crackathon" />
+        <activity
+            android:name=".Codecrux"
+            android:label="Codecrux" />
+        <activity
+            android:name=".Codeinx"
+            android:label="Code in X" />
+        <activity
+            android:name=".Keywordrush"
+            android:label="Keyword Rush" />
+        <activity
+            android:name=".Cadclash"
+            android:label="CAD Clash" />
+        <activity
+            android:name=".Chainreaction"
+            android:label="Chain Reaction" />
+        <activity
+            android:name=".Amazepossible"
+            android:label="A-Maze Possible" />
+        <activity
+            android:name=".Escape"
+            android:label="Escape The Labyrinth" />
+        <activity
+            android:name=".Circuitfrenzy"
+            android:label="Circuit Frenzy" />
+        <activity
+            android:name=".Follow"
+            android:label="Follow The Flare" />
+        <activity
+            android:name=".Castle"
+            android:label="TECH-ESHI’S Castle" />
+
+
+
+        <activity
             android:name=".Laser"
             android:label="LASER TAG" />
         <activity

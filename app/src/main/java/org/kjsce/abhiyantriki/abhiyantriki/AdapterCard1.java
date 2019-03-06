@@ -85,6 +85,55 @@ public class AdapterCard1 extends BaseAdapter {
             @Override
             public void onClick(View v) {
                 switch (modelCard1.getEname()) {
+                    case "Hackathon":
+                        intent = new Intent(c, Hackathon.class);
+                        startActivity(c, intent, null);
+                        break;
+                    case "Crackathon":
+                        intent = new Intent(c, Crackathon.class);
+                        startActivity(c, intent, null);
+                        break;
+                    case "Codecrux":
+                        intent = new Intent(c, Codecrux.class);
+                        startActivity(c, intent, null);
+                        break;
+                    case "Code in X":
+                        intent = new Intent(c, Codeinx.class);
+                        startActivity(c, intent, null);
+                        break;
+                    case "Keyword Rush":
+                        intent = new Intent(c, Keywordrush.class);
+                        startActivity(c, intent, null);
+                        break;
+                    case "CAD Clash":
+                        intent = new Intent(c, Cadclash.class);
+                        startActivity(c, intent, null);
+                        break;
+                    case "Chain Reaction":
+                        intent = new Intent(c, Chainreaction.class);
+                        startActivity(c, intent, null);
+                        break;
+                    case "A-Maze Impossible":
+                        intent = new Intent(c, Amazepossible.class);
+                        startActivity(c, intent, null);
+                        break;
+                    case "Escape the Labyrinth":
+                        intent = new Intent(c, Escape.class);
+                        startActivity(c, intent, null);
+                        break;
+                    case "Circuit Frenzy":
+                        intent = new Intent(c, Circuitfrenzy.class);
+                        startActivity(c, intent, null);
+                        break;
+                    case "Follow the Flare":
+                        intent = new Intent(c, Follow.class);
+                        startActivity(c, intent, null);
+                        break;
+                    case "Tech-Eshi's Castle":
+                        intent = new Intent(c, Castle.class);
+                        startActivity(c, intent, null);
+                        break;
+
                     case "PUBG Mobile":
                         intent = new Intent(c, Pubg.class);
                         startActivity(c, intent, null);

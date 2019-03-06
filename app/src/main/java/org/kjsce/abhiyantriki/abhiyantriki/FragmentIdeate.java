@@ -17,7 +17,7 @@ public class FragmentIdeate extends Fragment {
     //Add events for Ideate Section
     private ArrayList<ModelCard1> getData() {
         ArrayList<ModelCard1> cards = new ArrayList<ModelCard1>();
-        cards.add(new ModelCard1(R.drawable.icon, "Defeating the Mishaps", "State Transport Ministry"));
+        cards.add(new ModelCard1(R.drawable.icon, "Defeating The Mishaps", "State Transport Ministry"));
         cards.add(new ModelCard1(R.drawable.icon, "Reversing Global Warming", "BARC"));
         return cards;
     }
