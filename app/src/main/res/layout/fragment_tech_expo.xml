@@ -21,7 +21,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="153dp"
                 android:layout_marginBottom="8dp"
-                android:src="@drawable/logo" />
+                app:srcCompat="@drawable/ic_tech_expo"
+                android:scaleX="1.5"
+                android:scaleY="1"/>
 
             <TextView
                 android:layout_width="match_parent"

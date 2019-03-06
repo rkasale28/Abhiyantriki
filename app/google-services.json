@@ -31,6 +31,14 @@
           }
         },
         {
+          "client_id": "360383400796-153pnhv3mso2u3h9bd1o7ksni6khkaki.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.kjsce.abhiyantriki.abhiyantriki",
+            "certificate_hash": "f3fc8f510efbbb24261f7afa8bae206669cae847"
+          }
+        },
+        {
           "client_id": "360383400796-falfg4r7567nqchqutq2lh6jskd4rp7g.apps.googleusercontent.com",
           "client_type": 3
         }
