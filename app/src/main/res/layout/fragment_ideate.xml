@@ -44,5 +44,9 @@
             android:stretchMode="columnWidth"
             android:verticalSpacing="1dp" />
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="80dp"/>
+
     </LinearLayout>
 </ScrollView>

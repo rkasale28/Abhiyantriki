@@ -84,7 +84,6 @@ public class AdapterCard1 extends BaseAdapter {
 
             @Override
             public void onClick(View v) {
-                //Later use images
                 switch (modelCard1.getEname()) {
                     case "PUBG Mobile":
                         intent = new Intent(c, Pubg.class);

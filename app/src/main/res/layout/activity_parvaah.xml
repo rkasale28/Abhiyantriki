@@ -273,7 +273,11 @@
                     android:layout_height="8dp"
                     android:layout_margin="8dp"
                     android:padding="8dp" />
+
             </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="55dp"/>
         </LinearLayout>
 
     </ScrollView>

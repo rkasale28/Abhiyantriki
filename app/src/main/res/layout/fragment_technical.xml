@@ -13,6 +13,8 @@
         android:stretchMode="columnWidth"
         android:verticalSpacing="1dp"
         android:horizontalSpacing="1dp"
-        android:paddingBottom="56dp"/>
+        android:paddingBottom="136dp"
+        android:clipToPadding="false"/>
+
 
 </android.support.constraint.ConstraintLayout>

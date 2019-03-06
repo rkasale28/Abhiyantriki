@@ -19,6 +19,13 @@
             app:title="Speakers"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
 
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -51,7 +58,13 @@
             android:horizontalSpacing="1dp"
             android:numColumns="2"
             android:stretchMode="columnWidth"
-            android:verticalSpacing="1dp" />
+            android:verticalSpacing="1dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="150dp"/>
+            </LinearLayout>
+        </ScrollView>
 
     </LinearLayout>
     <include layout="@layout/action_combined"/>
