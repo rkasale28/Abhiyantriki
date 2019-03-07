@@ -9,29 +9,15 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <LinearLayout
+        <TextView
+            style="@style/Body2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="151dp"
-                android:gravity="center_horizontal|center_vertical"
-                android:text="Ideate"
-                android:textAllCaps="true"
-                android:textColor="#61003F"
-                android:textSize="100sp"
-                android:textStyle="bold" />
-
-            <TextView
-                style="@style/Body2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:gravity="center_horizontal"
-                android:text="@string/ideate" />
-        </LinearLayout>
+            android:background="@color/colorPrimary"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="@string/ideate"
+            android:textColor="@color/white" />
 
         <org.kjsce.abhiyantriki.abhiyantriki.ExpandableHeightGridView
             android:id="@+id/grid_view"
@@ -46,7 +32,7 @@
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="80dp"/>
+            android:layout_height="80dp" />
 
     </LinearLayout>
 </ScrollView>

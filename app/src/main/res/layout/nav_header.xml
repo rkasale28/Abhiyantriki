@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="190dp"
-    android:background="@drawable/kjsce"
+    android:layout_height="200dp"
+    android:background="@drawable/walldesktop"
     android:gravity="bottom"
     android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Abhiyantriki 2k19"
-        android:textColor="@android:color/white"
-        android:textSize="30sp"
-        android:layout_margin="8dp"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:text="@string/clg_name"
-        android:textColor="@android:color/white"
-        android:layout_margin="8dp"/>
+        android:textColor="@color/colorPrimary"
+        android:layout_margin="8dp"
+        android:textSize="16sp"/>
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/colorPrimary"/>
 </LinearLayout>
