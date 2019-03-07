@@ -23,8 +23,8 @@ public class SpeakersActivity extends NavActivity {
     //Add events for Speaker Section
     private ArrayList<ModelCard1> getData() {
         ArrayList<ModelCard1> cards = new ArrayList<ModelCard1>();
-        cards.add(new ModelCard1(R.drawable.icon, "Dr. S. Christopher", ""));
-        cards.add(new ModelCard1(R.drawable.icon, "Mr. Vilas Shinde", ""));
+        cards.add(new ModelCard1(R.drawable.schris, "Dr. S. Christopher", ""));
+        cards.add(new ModelCard1(R.drawable.shinde, "Mr. Vilas Shinde", ""));
         return cards;
     }
 

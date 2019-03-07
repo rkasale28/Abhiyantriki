@@ -18,18 +18,18 @@ public class FragmentTechnical extends Fragment {
     //Add events for Technical Section
     private ArrayList<ModelCard1> getData() {
         ArrayList<ModelCard1> cards = new ArrayList<ModelCard1>();
-        cards.add(new ModelCard1(R.drawable.icon, "Hackathon", "Codecell"));
-        cards.add(new ModelCard1(R.drawable.icon, "Crackathon", "Codecell"));
-        cards.add(new ModelCard1(R.drawable.icon, "Codecrux", "CSI"));
-        cards.add(new ModelCard1(R.drawable.icon, "Code in X", "CSI"));
-        cards.add(new ModelCard1(R.drawable.icon, "Keyword Rush", "Codecell"));
-        cards.add(new ModelCard1(R.drawable.icon, "CAD Clash", "MESA"));
-        cards.add(new ModelCard1(R.drawable.icon, "Chain Reaction", "MESA"));
-        cards.add(new ModelCard1(R.drawable.icon, "A-Maze Impossible", "IEEE"));
-        cards.add(new ModelCard1(R.drawable.icon, "Escape the Labyrinth", "ISTE"));
-        cards.add(new ModelCard1(R.drawable.icon, "Circuit Frenzy", "EESA"));
-        cards.add(new ModelCard1(R.drawable.icon, "Follow the Flare", "EESA"));
-        cards.add(new ModelCard1(R.drawable.icon, "Tech-Eshi's Castle", "IETE"));
+        cards.add(new ModelCard1(R.drawable.hackathon, "Hackathon", "Codecell"));
+        cards.add(new ModelCard1(R.drawable.crackathon, "Crackathon", "Codecell"));
+        cards.add(new ModelCard1(R.drawable.codecrux, "Codecrux", "CSI"));
+        cards.add(new ModelCard1(R.drawable.codeinx, "Code in X", "CSI"));
+        cards.add(new ModelCard1(R.drawable.keywordrush, "Keyword Rush", "Codecell"));
+        cards.add(new ModelCard1(R.drawable.cadclash, "CAD Clash", "MESA"));
+        cards.add(new ModelCard1(R.drawable.chainreaction, "Chain Reaction", "MESA"));
+        cards.add(new ModelCard1(R.drawable.amazeimpossible, "A-Maze Impossible", "IEEE"));
+        cards.add(new ModelCard1(R.drawable.escapethelabyrinth, "Escape the Labyrinth", "ISTE"));
+        cards.add(new ModelCard1(R.drawable.circuitfrenzy, "Circuit Frenzy", "EESA"));
+        cards.add(new ModelCard1(R.drawable.followtheflare, "Follow the Flare", "EESA"));
+        cards.add(new ModelCard1(R.drawable.techeshiscastle, "Tech-Eshi's Castle", "IETE"));
         return cards;
     }
 

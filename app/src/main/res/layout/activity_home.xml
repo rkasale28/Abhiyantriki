@@ -65,7 +65,8 @@
                 android:layout_height="153dp"
                 android:layout_marginLeft="8dp"
                 android:layout_marginRight="8dp"
-                android:src="@drawable/logo" />
+                android:src="@drawable/kjsce"
+                android:scaleType="fitXY"/>
 
             <TextView
                 style="@style/Subtitle"

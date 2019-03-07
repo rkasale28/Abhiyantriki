@@ -19,7 +19,7 @@ public class FragmentPreEvents extends Fragment {
     private ArrayList<ModelCard1> getData() {
         ArrayList<ModelCard1> cards = new ArrayList<ModelCard1>();
         cards.add(new ModelCard1(R.drawable.posterdesign, "Digital Poster Design Contest", "India Film Project"));
-        cards.add(new ModelCard1(R.drawable.kjsceopen, "KJSCE Mumbai Open 2018", "Cubenama & W.C.A."));
+        cards.add(new ModelCard1(R.drawable.kjsceopen, "kjsce Mumbai Open 2018", "Cubenama & W.C.A."));
         return cards;
     }
 

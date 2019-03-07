@@ -2,6 +2,8 @@ package org.kjsce.abhiyantriki.abhiyantriki;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.BottomNavigationView;
@@ -70,6 +72,8 @@ public class ExposActivity extends NavActivity {
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs2);
         tabLayout.setupWithViewPager(mViewPager);
+
+
 
     }
 }

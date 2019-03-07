@@ -19,19 +19,19 @@ public class FragmentTechExpo extends Fragment {
     //Add events for TechExpo Section Section
     private ArrayList<ModelCard1> getData() {
         ArrayList<ModelCard1> cards = new ArrayList<ModelCard1>();
-        cards.add(new ModelCard1(R.drawable.icon, "Kalam Sat", ""));
-        cards.add(new ModelCard1(R.drawable.icon, "Mini Humanoid Robot/Build My Project",
+        cards.add(new ModelCard1(R.drawable.kalamsat, "Kalam Sat", ""));
+        cards.add(new ModelCard1(R.drawable.mini_humanoid, "Mini Humanoid Robot/Build My Project",
                 ""));
-        cards.add(new ModelCard1(R.drawable.icon, "SP Robotics Maker Lab", ""));
-        cards.add(new ModelCard1(R.drawable.icon, "R2D2", ""));
-        cards.add(new ModelCard1(R.drawable.icon, "Netra Pro", ""));
-        cards.add(new ModelCard1(R.drawable.icon, "Sphero sprk+", ""));
-        cards.add(new ModelCard1(R.drawable.icon, "A1 Chek", ""));
-        cards.add(new ModelCard1(R.drawable.icon, "Touch B", ""));
-        cards.add(new ModelCard1(R.drawable.icon, "NKD-POD", ""));
-        cards.add(new ModelCard1(R.drawable.icon, "Neurosky Puzzlebox Orbit & EEG headsets",
+        cards.add(new ModelCard1(R.drawable.sp_robotics, "SP Robotics Maker Lab", ""));
+        cards.add(new ModelCard1(R.drawable.r2d2, "R2D2", ""));
+        cards.add(new ModelCard1(R.drawable.netra_pro, "Netra Pro", ""));
+        cards.add(new ModelCard1(R.drawable.sphero, "Sphero sprk+", ""));
+        cards.add(new ModelCard1(R.drawable.a1_chek, "A1 Chek", ""));
+        cards.add(new ModelCard1(R.drawable.touchb, "Touch B", ""));
+        cards.add(new ModelCard1(R.drawable.nkd, "NKD-POD", ""));
+        cards.add(new ModelCard1(R.drawable.puzzle_orbit, "Neurosky Puzzlebox Orbit & EEG headsets",
                 ""));
-        cards.add(new ModelCard1(R.drawable.icon, "Ugears", ""));
+        cards.add(new ModelCard1(R.drawable.ugears, "Ugears", ""));
         return cards;
     }
 

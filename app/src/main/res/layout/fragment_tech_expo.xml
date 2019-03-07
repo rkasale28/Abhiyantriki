@@ -21,9 +21,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="153dp"
                 android:layout_marginBottom="8dp"
-                app:srcCompat="@drawable/ic_tech_expo"
                 android:scaleX="1.5"
-                android:scaleY="1"/>
+                android:scaleY="1"
+                app:srcCompat="@drawable/ic_tech_expo" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -50,20 +50,37 @@
             android:text="Featuring"
             android:textAllCaps="true" />
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="153dp"
-            android:layout_marginBottom="8dp"
-            android:src="@drawable/logo" />
-
-        <TextView
-            style="@style/Header"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:gravity="center_horizontal"
-            android:text="Indian Army"
-            android:textAllCaps="true" />
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="153dp"
+                android:layout_weight="5"
+                android:src="@drawable/indianarmy"
+                android:layout_margin="8dp"/>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="153dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                style="@style/Header"
+                android:layout_width="0dp"
+                android:layout_height="153dp"
+                android:layout_marginBottom="8dp"
+                android:layout_weight="5"
+                android:gravity="center_vertical"
+                android:text="THE Indian Army"
+                android:textAllCaps="true"
+                android:layout_margin="8dp"/>
+        </LinearLayout>
 
         <TextView
             style="@style/Body2"
@@ -80,8 +97,8 @@
             android:gravity="center_horizontal"
             android:horizontalSpacing="1dp"
             android:numColumns="2"
+            android:paddingBottom="56dp"
             android:stretchMode="columnWidth"
-            android:verticalSpacing="1dp"
-            android:paddingBottom="56dp"/>
+            android:verticalSpacing="1dp" />
     </LinearLayout>
 </ScrollView>

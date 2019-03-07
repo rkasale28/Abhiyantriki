@@ -18,11 +18,11 @@ public class FragmentShield extends Fragment {
     //Add events for Shield Section
     private ArrayList<ModelCard1> getData() {
         ArrayList<ModelCard1> cards = new ArrayList<ModelCard1>();
-        cards.add(new ModelCard1(R.drawable.icon, "Technical Paper Presentation", "Students Council"));
-        cards.add(new ModelCard1(R.drawable.icon, "Technovate", "Students Council"));
-        cards.add(new ModelCard1(R.drawable.icon, "Tech Quiz", "Students Council"));
-        cards.add(new ModelCard1(R.drawable.icon, "Tech Hunt", "Students Council"));
-        cards.add(new ModelCard1(R.drawable.icon, "Zero Energy Building", "Students Council"));
+        cards.add(new ModelCard1(R.drawable.tpp, "Technical Paper Presentation", "Students Council"));
+        cards.add(new ModelCard1(R.drawable.technovate, "Technovate", "Students Council"));
+        cards.add(new ModelCard1(R.drawable.techquiz, "Tech Quiz", "Students Council"));
+        cards.add(new ModelCard1(R.drawable.techhunt, "Tech Hunt", "Students Council"));
+        cards.add(new ModelCard1(R.drawable.zeroenergy, "Zero Energy Building", "Students Council"));
         return cards;
     }
 

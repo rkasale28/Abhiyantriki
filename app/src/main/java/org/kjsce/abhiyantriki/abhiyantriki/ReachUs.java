@@ -47,7 +47,7 @@ Intent intent;
             @Override
             public void onClick(View v) {
                 Uri uri = Uri.parse("geo:19.073441,72.899851?z=8");
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:19.073441,72.899851?q=19.073441,72.899851(KJSCE ABHIYANTRIKI)"));
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:19.073441,72.899851?q=19.073441,72.899851(kjsce ABHIYANTRIKI)"));
                 startActivity(intent);
             }
         });

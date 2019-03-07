@@ -18,13 +18,13 @@ public class FragmentInformals extends Fragment {
     //Add events for Informals Section
     private ArrayList<ModelCard1> getData() {
         ArrayList<ModelCard1> cards = new ArrayList<ModelCard1>();
-        cards.add(new ModelCard1(R.drawable.icon, "PUBG Mobile", "Students Council"));
-        cards.add(new ModelCard1(R.drawable.icon, "Laser Tag", "Students Council"));
-        cards.add(new ModelCard1(R.drawable.icon, "Drone Racing", "Drona Aviation"));
-        cards.add(new ModelCard1(R.drawable.icon, "Meme Quest", "Sahas"));
-        cards.add(new ModelCard1(R.drawable.icon, "Fifa Manager", ""));
-        cards.add(new ModelCard1(R.drawable.icon, "Counter Strike", ""));
-        cards.add(new ModelCard1(R.drawable.icon, "Castle Math", "Emfinity"));
+        cards.add(new ModelCard1(R.drawable.pubg, "PUBG Mobile", "Students Council"));
+        cards.add(new ModelCard1(R.drawable.lasertag, "Laser Tag", "Students Council"));
+        cards.add(new ModelCard1(R.drawable.drone, "Drone Racing", "Drona Aviation"));
+        cards.add(new ModelCard1(R.drawable.meme, "Meme Quest", "Sahas"));
+        cards.add(new ModelCard1(R.drawable.fifa, "Fifa Manager", ""));
+        cards.add(new ModelCard1(R.drawable.cs, "Counter Strike", ""));
+        cards.add(new ModelCard1(R.drawable.castlemath, "Castle Math", "Emfinity"));
         return cards;
     }
 

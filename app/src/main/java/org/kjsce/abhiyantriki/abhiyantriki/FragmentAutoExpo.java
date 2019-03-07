@@ -18,8 +18,8 @@ public class FragmentAutoExpo extends Fragment {
     //Add events for AutoExpo Section
     private ArrayList<ModelCard1> getData() {
         ArrayList<ModelCard1> cards = new ArrayList<ModelCard1>();
-        cards.add(new ModelCard1(R.drawable.icon, "Super Bikes", ""));
-        cards.add(new ModelCard1(R.drawable.icon, "Vintage Cars", ""));
+        cards.add(new ModelCard1(R.drawable.autobike, "Super Bikes", ""));
+        cards.add(new ModelCard1(R.drawable.vintagecars, "Vintage Cars", ""));
         return cards;
     }
 
