@@ -221,10 +221,6 @@
     <!--        getInvolved String      -->
     <string name="getInvolved1">Do you know someone with the potential to build something that pawns over the technology being displayed in Abhiyantriki and will leave the audience awestruck? If yes, feel free to add their details in the form below and we’ll reach out to them!</string>
     <string name="getInvolved2">Sponsors and Partners are a key component that helps make Abhiyantriki a fest worthy of all the praise and acclaim it has been garnered over the ages. Along with monetary support, you can feel free to help us out in any other way possible. Fill out the form below to get in touch with us :</string>
-    <string name="title_activity_nav1">NavActivity1</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
 
     <!-- For Speakers Activity  -->
     <string name="speaker1">Dr. S. Christopher is the former Chairman of DRDO (Defence Research and
@@ -264,59 +260,23 @@
     <string name="Bike">Zooming around the campus, we had an array of superbikes whose hums and roars left the audience awestruck.</string>
     <string name="Car">The vintage cars present at the expo helped students gain perspective about different cars, their specifications, and the enhancements in the technology involved.</string>
     <!--Other things-->
-    <string name="title_text">Google Sign-In</string>
 
     <!-- Sign-in status messages -->
-    <string name="signed_in_fmt1">SIGNED IN AS:\n</string>
     <string name="signed_in1">NAME:</string>
     <string name="signed_in_fmt2">EMAIL-ID:</string>
 
-    <string name="signed_in">Signed in</string>
-    <string name="signing_in">Signing in</string>
-    <string name="signed_out">Signed out</string>
-    <string name="signed_in_err">"Error: please check logs."</string>
-    <string name="error_null_person">
-        Error: Plus.PeopleApi.getCurrentPerson returned null. Ensure that the Google+ API is
-        enabled for your project, you have a properly configured google-services.json file
-        and that your device has an internet connection.
-    </string>
-    <string name="loading">Loading…</string>
-    <string name="auth_code_fmt">Auth Code: %s</string>
-    <string name="id_token_fmt">ID Token: %s</string>
-
     <!-- Google Play Services error for Toast -->
-    <string name="play_services_error_fmt">Google Play Services Error: %i</string>
 
     <!-- Button labels -->
-    <string name="sign_out">Sign Out</string>
-    <string name="disconnect">Disconnect</string>
-    <string name="refresh_token">Get Fresh Token</string>
 
     <!-- Content Description for images -->
-    <string name="desc_google_icon">Google Logo</string>
 
     <!-- Rationale for asking for Contacts -->
-    <string name="contacts_permission_rationale">Contacts access is needed in order to retrieve your email address.</string>
 
     <!-- Activity Names and Descriptions -->
-    <string name="name_sign_in_activity">SignInActivity</string>
-    <string name="desc_sign_in_activity">Signing in, signing out, and revoking access.</string>
-    <string name="desc_sign_in_activity_scopes">Signing in, signing out, and revoking access with Google Drive permissions.</string>
-
-    <string name="name_id_token_activity">IdTokenActivity</string>
-    <string name="desc_id_token_activity">Retrieving an ID Token for the user.</string>
-
-    <string name="desc_auth_code_activity">Demonstrate retrieving an auth code for authorizing your server.</string>
-    <string name="name_auth_code_activity">ServerAuthCodeActivity</string>
-
-    <string name="desc_rest_activity">Demonstrate using Google Sign In with a Google REST API</string>
-    <string name="name_rest_activity">RestApiActivity</string>
 
     <!-- Messages for the Rest API activity -->
-    <string name="connections_fmt">Connections: %1$s</string>
-    <string name="msg_contacts_failed">Get contacts failed.</string>
 
     <!-- Server Client ID.  This should be a valid Web OAuth 2.0 Client ID obtained
          from https://console.developers.google.com/ -->
-    <string name="server_client_id">YOUR_SERVER_CLIENT_ID</string>
 </resources>
