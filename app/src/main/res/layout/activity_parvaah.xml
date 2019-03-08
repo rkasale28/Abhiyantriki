@@ -24,7 +24,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
+
             android:orientation="vertical"
 
             >
@@ -33,7 +33,7 @@
                 android:id="@+id/parvaah_heading"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
+
                 android:background="#61003F"
                 android:orientation="vertical"
 
@@ -57,7 +57,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif"
                     android:gravity="center"
-                    android:padding="8dp"
+
                     android:text="@string/parvaahTitle"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:textColor="#ffffff" />
@@ -77,7 +77,7 @@
             <View
                 android:layout_width="fill_parent"
                 android:layout_height="2dp"
-                android:layout_margin="8dp"
+
                 android:background="#61003F"
                 android:padding="8dp" />
 
