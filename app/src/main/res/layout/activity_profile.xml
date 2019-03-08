@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:orientation="vertical">
+
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:popupTheme="@style/AppTheme.PopupOverlay"
-        app:title="My Profile"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+        app:title="My Profile" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -34,13 +35,13 @@
                 android:src="@drawable/logo"
 
 
-                 />
+                />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+
             android:background="@drawable/back"
             android:orientation="vertical"
             android:paddingLeft="10dp">
@@ -70,7 +71,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
+                
                 android:text="@string/signed_in_fmt2"
                 android:textAlignment="center"
                 android:textAllCaps="true"
@@ -88,21 +89,25 @@
                 tools:layout_marginBottom="20dp"
                 tools:paddingBottom="20dp" />
         </LinearLayout>
-        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:background="#ffffff"
-            >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="#ffffff">
+
             <Button
                 android:id="@+id/toAnimationPage"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#61003F"
-                android:text="LOGOUT"
+                android:text="Sign Out"
                 android:textAllCaps="true"
-                android:textColor="#fff"/>
+                android:textColor="#fff" />
 
 
-        </LinearLayout>>
+        </LinearLayout>
+        >
     </LinearLayout>
 
     <LinearLayout
@@ -169,16 +174,16 @@
         android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
         android:layout_marginBottom="36dp"
+        android:layout_marginEnd="16dp"
         android:backgroundTint="@color/colorPrimary"
         android:clickable="true"
         android:elevation="8dp"
         app:fabSize="auto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:pressedTranslationZ="16dp"
         app:rippleColor="@color/colorRipple"
-        app:srcCompat="@drawable/home"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        app:srcCompat="@drawable/home" />
 
 </android.support.constraint.ConstraintLayout>
