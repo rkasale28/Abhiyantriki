@@ -85,7 +85,7 @@ public class HomeActivity extends NavActivity {
             public void run() {
                 handler.post(Update);
             }
-        }, 5000, 5000);
+        }, 5000, 6000);
     }
 
     @Override
