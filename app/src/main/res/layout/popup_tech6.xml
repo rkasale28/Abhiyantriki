@@ -27,7 +27,7 @@
             android:layout_width="112dp"
             android:layout_height="64dp"
             android:layout_margin="8dp"
-            android:src="@drawable/icon" />
+            android:src="@drawable/sphero" />
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"

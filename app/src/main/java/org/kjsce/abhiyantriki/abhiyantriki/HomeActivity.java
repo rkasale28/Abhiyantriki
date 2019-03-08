@@ -67,13 +67,11 @@ public class HomeActivity extends NavActivity {
         tabLayout = (TabLayout) findViewById(R.id.indicator);
         tabLayout.setupWithViewPager(viewPager);
 
-        final int NUM_PAGES = 5;
-
         // Auto start of viewpager
         final Handler handler = new Handler();
         final Runnable Update = new Runnable() {
             public void run() {
-                if (currentPage == NUM_PAGES) {
+                if (currentPage == 5) {
                     currentPage = 0;
                 }
                 viewPager.setCurrentItem(currentPage++, true);
