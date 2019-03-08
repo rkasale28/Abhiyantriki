@@ -17,7 +17,7 @@
     <ScrollView
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_below="@id/toolbar">
 
         <LinearLayout
@@ -27,17 +27,17 @@
             <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
+
                 android:background="@drawable/back"
                 android:orientation="vertical"
-                android:padding="8dp"
+
                 tools:context=".MainActivity">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif"
-                    android:text="Help Us Engineer Abhiyantriki"
+                    android:text="  Help Us Engineer Abhiyantriki"
                     android:textAlignment="center"
                     android:textAllCaps="true"
                     android:textColor="#61003F"

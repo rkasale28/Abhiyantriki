@@ -50,10 +50,10 @@ public class HomeActivity extends NavActivity {
     private ArrayList<ModelFlagship> getFData() {
         ArrayList<ModelFlagship> flagshipModels = new ArrayList<>();
         flagshipModels.add(new ModelFlagship(R.drawable.banner_army, "Indian Army", "Tech Expo"));
-        flagshipModels.add(new ModelFlagship(R.drawable.schris, "Speakers", "Students Council"));
+        flagshipModels.add(new ModelFlagship(R.drawable.preview, "Speakers", "Students Council"));
         flagshipModels.add(new ModelFlagship(R.drawable.banner_hackathon, "Hackathon", "Codecell"));
-        flagshipModels.add(new ModelFlagship(R.drawable.banner_tpp, "Technical Paper", "Students Council"));
-        flagshipModels.add(new ModelFlagship(R.drawable.banner_pubg, "PUBG Mobile", "Students Council"));
+        flagshipModels.add(new ModelFlagship(R.drawable.preview3, "Technical Paper", "Students Council"));
+        flagshipModels.add(new ModelFlagship(R.drawable.puubg, "PUBG Mobile", "Students Council"));
         return flagshipModels;
     }
 
