@@ -12,7 +12,7 @@
         android:text="@string/clg_name"
         android:textColor="@color/colorPrimary"
         android:layout_margin="8dp"
-        android:textSize="16sp"/>
+        android:textSize="14sp"/>
 
     <View
         android:layout_width="match_parent"

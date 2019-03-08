@@ -27,25 +27,24 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <RelativeLayout
+            <android.support.constraint.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <android.support.v4.view.ViewPager
                     android:id="@+id/pager"
                     android:layout_width="match_parent"
-                    android:layout_height="160dp" />
-
+                    android:layout_height="235dp" />
                 <android.support.design.widget.TabLayout
                     android:id="@+id/indicator"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_alignBottom="@id/pager"
+                    app:layout_constraintBottom_toBottomOf="@id/pager"
                     app:tabBackground="@drawable/circle_indicator"
                     app:tabGravity="center"
                     app:tabIndicatorHeight="0dp" />
 
-            </RelativeLayout>
+            </android.support.constraint.ConstraintLayout>
 
             <View
                 android:layout_width="match_parent"

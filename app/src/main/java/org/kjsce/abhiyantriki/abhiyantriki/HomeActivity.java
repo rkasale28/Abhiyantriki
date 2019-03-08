@@ -46,9 +46,9 @@ public class HomeActivity extends NavActivity{
     //For inserting elements in ImageSlider
     private ArrayList<ModelFlagship> getFData() {
         ArrayList<ModelFlagship> flagshipModels = new ArrayList<>();
-        flagshipModels.add(new ModelFlagship(R.drawable.logo, "PUBG Mobile", "Student Council"));
-        flagshipModels.add(new ModelFlagship(R.drawable.logo, "Laser Tag", "Student Council"));
-        flagshipModels.add(new ModelFlagship(R.drawable.logo, "Drone Racing", "Drona Aviation"));
+        flagshipModels.add(new ModelFlagship(R.drawable.indianarmy, "Indian Army", "Tech Expo"));
+        flagshipModels.add(new ModelFlagship(R.drawable.schris, "Dr. S. Christopher", "Former DRDO Chairman"));
+        flagshipModels.add(new ModelFlagship(R.drawable.hackathon, "Hackathon", "Codecell"));
         return flagshipModels;
     }
 
