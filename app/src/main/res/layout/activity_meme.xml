@@ -9,136 +9,148 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:popupTheme="@style/AppTheme.PopupOverlay"
-        app:title="Meme Quest"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+        app:title="Meme Quest" />
 
-
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
         android:layout_below="@id/toolbar">
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/walldesktop" />
-
-
-        <TextView
-            style="@style/Body2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:text="@string/meme"
-            android:textColor="#000000" />
-
-        <View
-            android:layout_width="wrap_content"
-            android:layout_height="6dp"
-            android:layout_marginBottom="16dp"
-            android:background="@color/colorPrimary" />
-
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp">
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/walldesktop" />
+
+
+            <TextView
+                style="@style/Body2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="@string/meme"
+                android:textColor="#000000" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="6dp"
+                android:layout_marginBottom="16dp"
+                android:background="@color/colorPrimary" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp">
 
-                <TextView
-                    style="@style/Subtitle"
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="16dp"
-                    android:text="Prizes Worth"
-                    android:textStyle="bold" />
+                    android:orientation="vertical">
 
-                <TextView
-                    style="@style/Subtitle"
+                    <TextView
+                        style="@style/Subtitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="16dp"
+                        android:text="Prizes Worth"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        style="@style/Subtitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="16dp"
+                        android:text="Registration Fees"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        style="@style/Subtitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="16dp"
+                        android:text="Team Limit"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        style="@style/Subtitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="16dp"
+                        android:text="Contact"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="16dp"
-                    android:text="Registration Fees"
-                    android:textStyle="bold" />
+                    android:orientation="vertical">
 
-                <TextView
-                    style="@style/Subtitle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="16dp"
-                    android:text="Team Limit"
-                    android:textStyle="bold" />
+                    <TextView
+                        style="@style/Subtitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="16dp"
+                        android:text=": ₹ 2,500"
+                        android:textStyle="bold" />
 
-                <TextView
-                    style="@style/Subtitle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="16dp"
-                    android:text="Contact"
-                    android:textStyle="bold" />
+                    <TextView
+                        style="@style/Subtitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="16dp"
+                        android:text=": ₹ 50"
+                        android:textStyle="bold" />
 
+                    <TextView
+                        style="@style/Subtitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="16dp"
+                        android:text=": Team of 2"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/Subtitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="16dp"
+                            android:text=": Revant: 8552035833"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            style="@style/Subtitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="16dp"
+                            android:text="  Vraj: 9029908968"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
             </LinearLayout>
 
-            <LinearLayout
+            <View
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    style="@style/Subtitle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="16dp"
-                    android:text=": ₹ 2,500"
-                    android:textStyle="bold" />
-
-                <TextView
-                    style="@style/Subtitle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="16dp"
-                    android:text=": ₹ 50"
-                    android:textStyle="bold" />
-
-                <TextView
-                    style="@style/Subtitle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="16dp"
-                    android:text=": Team of 2"
-                    android:textStyle="bold" />
-<LinearLayout
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:orientation="vertical">
-    <TextView
-        style="@style/Subtitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="16dp"
-        android:text=": Revant: 8552035833"
-        android:textStyle="bold" />
-    <TextView
-        style="@style/Subtitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="16dp"
-        android:text="  Vraj: 9029908968"
-        android:textStyle="bold" />
-
-</LinearLayout>
-
-            </LinearLayout>
+                android:layout_height="100dp" />
         </LinearLayout>
-    </LinearLayout>
-    <include layout="@layout/action_register"/>
+    </ScrollView>
+
+    <include layout="@layout/action_register" />
 </RelativeLayout>
