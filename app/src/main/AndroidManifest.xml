@@ -1,145 +1,181 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.kjsce.abhiyantriki.abhiyantriki">
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
+        android:hardwareAccelerated="false"
         android:icon="@drawable/icon"
         android:label="@string/app_name"
+        android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme.NoActionBar"
-        android:largeHeap="true"
-        android:hardwareAccelerated="false">
+        android:theme="@style/AppTheme.NoActionBar">
         <activity
             android:name=".AnimationScreen1"
-
             android:label="Abhiyantriki"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".EventsActivity"
-            android:label="Events" />
+            android:label="Events"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ExposActivity"
-            android:label="Expos" />
+            android:label="Expos"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".SpeakersActivity"
-            android:label="Speakers" />
+            android:label="Speakers"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".SponsorsActivity"
-            android:label="Sponsors" />
+            android:label="Sponsors"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ParvaahActivity"
-            android:label="Parvaah" />
+            android:label="Parvaah"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".GetInvolved"
-            android:label="Get Involved" />
+            android:label="Get Involved"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Pubg"
-            android:label="PUBG MOBILE" />
+            android:label="PUBG MOBILE"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Hackathon"
-            android:label="Hackathon" />
+            android:label="Hackathon"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Crackathon"
-            android:label="Crackathon" />
+            android:label="Crackathon"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Codecrux"
-            android:label="Codecrux" />
+            android:label="Codecrux"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Codeinx"
-            android:label="Code in X" />
+            android:label="Code in X"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Keywordrush"
-            android:label="Keyword Rush" />
+            android:label="Keyword Rush"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Cadclash"
-            android:label="CAD Clash" />
+            android:label="CAD Clash"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Chainreaction"
-            android:label="Chain Reaction" />
+            android:label="Chain Reaction"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Amazepossible"
-            android:label="A-Maze Possible" />
+            android:label="A-Maze Possible"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Escape"
-            android:label="Escape The Labyrinth" />
+            android:label="Escape The Labyrinth"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Circuitfrenzy"
-            android:label="Circuit Frenzy" />
+            android:label="Circuit Frenzy"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Follow"
-            android:label="Follow The Flare" />
+            android:label="Follow The Flare"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Castle"
-            android:label="TECH-ESHI’S Castle" />
-
+            android:label="TECH-ESHI’S Castle"
+            android:screenOrientation="portrait" />
 
 
         <activity
             android:name=".Laser"
-            android:label="LASER TAG" />
+            android:label="LASER TAG"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Drone"
-            android:label="DRONE RACING" />
+            android:label="DRONE RACING"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Meme"
-            android:label="Meme Quest" />
+            android:label="Meme Quest"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Fifa"
-            android:label="FIFA MANAGER" />
+            android:label="FIFA MANAGER"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".CS"
-            android:label="COUNTER STRIKE" />
+            android:label="COUNTER STRIKE"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".CastleMath"
-            android:label="CASTLE MATH" />
+            android:label="CASTLE MATH"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ReachUs"
-            android:label="Reach Us" />
+            android:label="Reach Us"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ProfileActivity"
-            android:label="My Profile" />
+            android:label="My Profile"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".PreEvents1"
-            android:label="Digital Poster Design Contest" />
+            android:label="Digital Poster Design Contest"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".PreEvents2"
-            android:label="KJSCE Mumbai Open 2018" />
+            android:label="KJSCE Mumbai Open 2018"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".TPP"
-            android:label="Technical Paper Presentation" />
+            android:label="Technical Paper Presentation"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Technovate"
-            android:label="Technovate" />
+            android:label="Technovate"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Techquiz"
-            android:label="Tech Quiz" />
+            android:label="Tech Quiz"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Techhunt"
-            android:label="Tech Hunt" />
+            android:label="Tech Hunt"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ZEB"
-            android:label="Zero Energy Building" />
+            android:label="Zero Energy Building"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Ideate"
-            android:label="Defeating The Mishaps" />
+            android:label="Defeating The Mishaps"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Ideate2"
-            android:label="Reversing Global Warming" />
-        <activity android:name=".AnimationScreen2"
-            android:theme="@style/AppTheme"/>
+            android:label="Reversing Global Warming"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AnimationScreen2"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".HomeActivity"
-
-            android:label="Abhiyantriki"></activity>
+            android:label="Abhiyantriki"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>
