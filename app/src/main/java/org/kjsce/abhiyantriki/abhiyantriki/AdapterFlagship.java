@@ -62,7 +62,7 @@ public class AdapterFlagship extends PagerAdapter {
                         intent = new Intent(c, ExposActivity.class);
                         startActivity(c, intent, null);
                         break;
-                    case "Dr. S. Christopher":
+                    case "Speakers":
                         intent = new Intent(c, SpeakersActivity.class);
                         startActivity(c, intent, null);
                         break;
@@ -70,6 +70,15 @@ public class AdapterFlagship extends PagerAdapter {
                         intent = new Intent(c, Hackathon.class);
                         startActivity(c, intent, null);
                         break;
+                    case "Technical Paper":
+                        intent = new Intent(c,TPP.class);
+                        startActivity(c, intent, null);
+                        break;
+                    case "PUBG Mobile":
+                        intent = new Intent(c, Pubg.class);
+                        startActivity(c, intent, null);
+                        break;
+
                 }
             }
         });

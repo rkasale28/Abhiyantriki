@@ -1,21 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="200dp"
-    android:background="@drawable/walldesktop"
-    android:gravity="bottom"
-    android:orientation="vertical">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <TextView
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/clg_name"
-        android:textColor="@color/colorPrimary"
-        android:layout_margin="8dp"
-        android:textSize="14sp"/>
+        android:layout_height="match_parent"
+        android:background="@drawable/walldesktop"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:id="@+id/ll1">
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="4dp"
-        android:background="@color/colorPrimary"/>
-</LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/clg_name"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="@color/colorPrimary" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="113dp"
+        android:layout_height="36dp"
+        android:src="@drawable/somaiya"
+        app:layout_constraintLeft_toLeftOf="@id/ll1"
+        app:layout_constraintTop_toTopOf="@id/ll1"
+        android:layout_marginTop="24dp"/>
+
+</android.support.constraint.ConstraintLayout>
