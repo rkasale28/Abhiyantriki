@@ -23,7 +23,8 @@
             android:background="?attr/colorPrimary"
             app:layout_scrollFlags="scroll|enterAlways"
             app:popupTheme="@style/AppTheme.PopupOverlay"
-            app:title="Expos">
+            app:title="Expos"
+            app:tabMode="scrollable">
 
         </android.support.v7.widget.Toolbar>
         <android.support.design.widget.TabLayout

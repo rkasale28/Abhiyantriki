@@ -26,6 +26,8 @@
             android:id="@+id/ename"
             android:text="Event Name"
             android:layout_weight="1"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
             style="@style/CTitle"/>
 
         <TextView

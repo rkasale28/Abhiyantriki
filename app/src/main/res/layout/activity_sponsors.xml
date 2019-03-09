@@ -9,9 +9,9 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:popupTheme="@style/AppTheme.PopupOverlay"
-        app:title="Sponsors"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+        app:title="Sponsors" />
 
     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
@@ -31,25 +31,11 @@
                 android:gravity="center"
                 android:text="Presented by" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:orientation="horizontal"
-                android:weightSum="10">
-
-                <ImageView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="5"
-                    android:src="@drawable/icon" />
-
-                <ImageView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="5"
-                    android:src="@drawable/icon" />
-            </LinearLayout>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:src="@drawable/presentedby"
+                android:layout_gravity="center"/>
 
             <TextView
                 style="@style/CTitle"
@@ -59,25 +45,12 @@
                 android:gravity="center"
                 android:text="In Association with" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:orientation="horizontal"
-                android:weightSum="10">
 
-                <ImageView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="5"
-                    android:src="@drawable/icon" />
-
-                <ImageView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="5"
-                    android:src="@drawable/icon" />
-            </LinearLayout>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:layout_gravity="center"
+                android:src="@drawable/inass" />
 
             <TextView
                 style="@style/CTitle"
@@ -91,7 +64,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
-                android:src="@drawable/icon" />
+                android:src="@drawable/powered" />
 
             <org.kjsce.abhiyantriki.abhiyantriki.ExpandableHeightGridView
                 android:id="@+id/grid_view"
@@ -102,5 +75,6 @@
                 android:stretchMode="columnWidth" />
         </LinearLayout>
     </ScrollView>
-    <include layout="@layout/action_home"/>
+
+    <include layout="@layout/action_home" />
 </RelativeLayout>

@@ -20,8 +20,8 @@
         android:id="@+id/company_logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/icon"
+        android:layout_gravity="center_horizontal"
         android:layout_marginBottom="8dp"
-        android:layout_gravity="center_horizontal"/>
+        android:src="@drawable/icon" />
 
 </LinearLayout>
