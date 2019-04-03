@@ -1,10 +1,13 @@
 package org.kjsce.abhiyantriki.abhiyantriki;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.widget.Toolbar;
+import android.view.View;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -94,5 +97,14 @@ public class HomeActivity extends NavActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         init();
+
+        ImageView imageView=(ImageView) findViewById(R.id.not);
+        imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(HomeActivity.this,NotificationsActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

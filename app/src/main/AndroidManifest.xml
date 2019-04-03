@@ -174,7 +174,11 @@
         <activity
             android:name=".HomeActivity"
             android:label="Abhiyantriki"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait"/>
+            <activity
+                android:name=".NotificationsActivity"
+                android:label="Notifications"
+                android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

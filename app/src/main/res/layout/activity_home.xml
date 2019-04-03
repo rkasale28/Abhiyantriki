@@ -14,6 +14,14 @@
         app:popupTheme="@style/AppTheme.PopupOverlay"
         app:title="@string/app_name">
 
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/notifications"
+            android:layout_gravity="right"
+            android:paddingRight="8dp"
+            android:id="@+id/not"/>
+
     </android.support.v7.widget.Toolbar>
 
     <ScrollView
@@ -35,6 +43,7 @@
                     android:id="@+id/pager"
                     android:layout_width="match_parent"
                     android:layout_height="235dp" />
+
                 <android.support.design.widget.TabLayout
                     android:id="@+id/indicator"
                     android:layout_width="match_parent"
