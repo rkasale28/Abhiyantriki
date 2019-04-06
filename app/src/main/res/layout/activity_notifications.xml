@@ -15,16 +15,15 @@
         app:title="Notifications">
 
     </android.support.v7.widget.Toolbar>
-    <ScrollView
+    <ListView
+        android:id="@+id/notifslist"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/toolbar">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="All Caught Up"
-            style="@style/Header"
-            android:layout_gravity="center"/>
-
-    </ScrollView>
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_marginStart="8dp"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_alignBottom="@id/notifslist"/>
 </RelativeLayout>
